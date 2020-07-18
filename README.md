@@ -1,4 +1,4 @@
-Fundacja Samarytanin 
+Emaus Rzeszów
 ===
 
 ## Local setup
