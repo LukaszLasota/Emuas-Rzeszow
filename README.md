@@ -1,5 +1,15 @@
-Emaus Rzeszów
+# Emaus Rzeszów
+
+Website for local church 
+
 ===
+
+## Table of contents
+* [Local setup](#Local-setup)
+* [Production-build](#Production-build)
+* [Change to local](#Change-to-local)
+* [Technologies](#technologies)
+
 
 ## Local setup
 - `composer install`
@@ -27,3 +37,14 @@ composer install --no-dev --optimize-autoloader
 - `composer install`
 - `yarn watch` 
 - `symfony serve` 
+
+## Technologies
+Project is created with:
+* Symfony
+* Encore
+* HTML 5
+* CSS 3
+* Bootstrap 4
+* Swiper    
+* JavaScript ES 6
+* jQuery 
