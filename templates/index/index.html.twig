@@ -1,20 +1,55 @@
 {% extends 'base.html.twig' %}
 
-{% block title %}Hello IndexController!{% endblock %}
+{% block title %}{% endblock %}
 
 {% block body %}
-<style>
-    .example-wrapper { margin: 1em auto; max-width: 800px; width: 95%; font: 18px/1.5 sans-serif; }
-    .example-wrapper code { background: #F5F5F5; padding: 2px 6px; }
-</style>
 
-<div class="example-wrapper">
-    <h1>Hello {{ controller_name }}! ✅</h1>
+<header>
 
-    This friendly message is coming from:
-    <ul>
-        <li>Your controller at <code><a href="{{ '/home/lukasz/Projects/emaus/src/Controller/IndexController.php'|file_link(0) }}">src/Controller/IndexController.php</a></code></li>
-        <li>Your template at <code><a href="{{ '/home/lukasz/Projects/emaus/templates/index/index.html.twig'|file_link(0) }}">templates/index/index.html.twig</a></code></li>
-    </ul>
+<div class="navigation">
+  <ul class="navigation-list">
+    {% for item in menu %}
+    <li class="navigation-item"><a href="{{item.href }}">{{item.name}}</a></li>
+    {% endfor %}
+  </ul>
 </div>
+
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+        <picture>
+            <source media="(max-width:800px)" srcset="img/main/1s.jpg">
+            <img class="d-block w-100" src="img/main/1.jpg" alt="Transmisja nabożeństw">
+        </picture>
+    </div>
+    <div class="carousel-item">
+      <picture>
+            <source media="(max-width:800px)" srcset="img/main/2s.jpg">
+            <img class="d-block w-100" src="img/main/2.jpg" alt="Nabożeńśtwa niedzielne: 10.00 oraz środowe: 18.00">
+        </picture>
+    </div>
+    <div class="carousel-item">
+      <picture>
+            <source media="(max-width:800px)" srcset="img/main/3s.jpg">
+            <img class="d-block w-100" src="img/main/3.jpg" alt="Spotkania Modlitewne">
+        </picture>
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Poprzedni</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Następny</span>
+  </a>
+</div>
+</header>
+
+
 {% endblock %}

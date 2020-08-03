@@ -13,7 +13,25 @@ class IndexController extends AbstractController
     public function index()
     {
         return $this->render('index/index.html.twig', [
-            'controller_name' => 'hello',
+            'controller_name' => 'Kościół Zielonoświątkowy Zbór Emaus w Rzeszowie',
+            'menu' => [
+                [
+                'href' => '#one',
+                'name' => 'Aktualności',
+                ],
+                [
+                'href' => '#two',
+                'name' => 'kim jesteśmy',
+                ],
+                [
+                'href' => '#three',
+                'name' => 'nasze spotkania',
+                ],
+                [
+                'href' => '#four',
+                'name' => 'kontakt',
+                ]
+                ]
         ]);
     }
 }
