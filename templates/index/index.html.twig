@@ -6,13 +6,25 @@
 
 <header>
 
-<div class="navigation">
-  <ul class="navigation-list">
-    {% for item in menu %}
-    <li class="navigation-item"><a href="{{item.href }}">{{item.name}}</a></li>
-    {% endfor %}
-  </ul>
-</div>
+  <nav class="navbar d-flex justify-content-between fixed-top navbar-expand-lg m-0 p-0">
+    
+    <h1 class="navbar-brand col-4 col-md-3 col-lg-2 col-xl-1 m-0 py-0" href="/"><img class="d-block w-75" src="img/logo/logo-menu-white.png" alt="Transmisja nabożeństw"></h1> 
+    
+    <button class="navbar-toggler custom-toggler px-1 py-0 m-1" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon p-4 p-md-4"></span>
+    </button>
+    
+    <div class="collapse navbar-collapse col-12 col-lg-9 col-xl-6  m-0 p-0" id="navbarNavDropdown">
+      <ul class="navbar-nav d-flex justify-content-between col-12 m-0 p-0">
+        {% for item in menu %}
+          <li class="nav-item col-12 col-lg-3 d-flex justify-content-center p-0">
+            <a class="nav-link text-uppercase text-white hover p-4 p-lg-0" href="{{item.href }}">{{item.name}}</a>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+
+  </nav>
 
 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
   <ol class="carousel-indicators">
@@ -23,19 +35,19 @@
   <div class="carousel-inner">
     <div class="carousel-item active">
         <picture>
-            <source media="(max-width:800px)" srcset="img/main/1s.jpg">
+            <source media="(max-width:600px)" srcset="img/main/1s.jpg">
             <img class="d-block w-100" src="img/main/1.jpg" alt="Transmisja nabożeństw">
         </picture>
     </div>
     <div class="carousel-item">
       <picture>
-            <source media="(max-width:800px)" srcset="img/main/2s.jpg">
+            <source media="(max-width:600px)" srcset="img/main/2s.jpg">
             <img class="d-block w-100" src="img/main/2.jpg" alt="Nabożeńśtwa niedzielne: 10.00 oraz środowe: 18.00">
         </picture>
     </div>
     <div class="carousel-item">
       <picture>
-            <source media="(max-width:800px)" srcset="img/main/3s.jpg">
+            <source media="(max-width:600px)" srcset="img/main/3s.jpg">
             <img class="d-block w-100" src="img/main/3.jpg" alt="Spotkania Modlitewne">
         </picture>
     </div>

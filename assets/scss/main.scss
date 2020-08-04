@@ -1,11 +1,8 @@
 @import "~bootstrap/scss/bootstrap";
 @import "~swiper/css/swiper";
+@import 'variables';
+@import 'menu';
 
-body {
-    
-    color: black;
-    
-}
 
 .swiper-container {
     width: 100%;
