@@ -3,40 +3,12 @@
 {% block title %}{% endblock %}
 
 {% block body %}
+<header>
+  {% include "components/menu.html.twig" %}
 
 
-<div class="example-wrapper">
-    <h1>{{ controller_name }}</h1>
+</header>
 
-    This friendly message:
-    <ul>
-        <li>Your controller at <code><a href="{{ '/home/lukasz/Projects/emaus/src/Controller/NewsController.php'|file_link(0) }}">src/Controller/NewsController.php</a></code></li>
-        <li>Your template at <code><a href="{{ '/home/lukasz/Projects/emaus/templates/news/index.html.twig'|file_link(0) }}">templates/news/index.html.twig</a></code></li>
-    </ul>
 
-<div class="card" style="width: 18rem;">
-  <img class="card-img-top" src="/img/1.jpg" alt="Card image cap">
-  <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
-  </div>
-</div>
-
-  <!-- Swiper -->
-  <div class="swiper-container">
-    <div class="swiper-wrapper">
-      <div class="swiper-slide"><img class="card-img-top" src="/img/1.jpg" alt="Card image cap"></div>
-      <div class="swiper-slide"><img class="card-img-top" src="/img/1.jpg" alt="Card image cap"></div>
-      <div class="swiper-slide"><img class="card-img-top" src="/img/1.jpg" alt="Card image cap"></div>
-     
-    </div>
-    <!-- Add Pagination -->
-    <div class="swiper-pagination"></div>
-    <!-- Add Arrows -->
-    <div class="swiper-button-next"></div>
-    <div class="swiper-button-prev"></div>
-  </div>
-
-</div>
+  
 {% endblock %}
