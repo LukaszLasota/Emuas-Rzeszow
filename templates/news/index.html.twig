@@ -6,9 +6,35 @@
 <header>
   {% include "components/menu.html.twig" %}
 
+  <div class="col-12 p-0 m-0">
+    <picture >
+        <source srcset="img/subpage/news-s.jpg" media="(max-width: 480px)">
+        <img  class="col-12 p-0 m-0" src="img/subpage/news.jpg" alt="Aktualności zboru">
+    </picture>
+  </div>
 
 </header>
 
+<main>
+<div class="col-8 p-5 m-auto d-flex flex-wrap justify-content-center align-content-between">
+  {% for post in allPosts %}
+     
+    <div class="card px-0 m-3 col-5 ">
+      <a href='{{post.href}}' class='black'>
+      <img class="card-img-top px-0 mx-0" src="{{ post.img }}" alt="{{post.alt}}">
+      <div class="card-body">
+            <h3 class="card-title">{{post.title}}</h3>
+            <p class="card-text">{{post.postOne}}</p>
+            <p class="card-text">{{post.postTwo}}</p>
+            <p class="card-text">{{post.postThree}}</p>
+      </div>
+      </a>
+    </div>
+      
+  {% endfor %}
+   
+</div>
 
+</main>
   
 {% endblock %}
