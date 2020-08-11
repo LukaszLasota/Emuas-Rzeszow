@@ -12,15 +12,14 @@
         <img  class="col-12 p-0 m-0" src="img/subpage/news.jpg" alt="Aktualności zboru">
     </picture>
   </div>
-
 </header>
 
 <main>
-<div class="col-8 p-5 m-auto d-flex flex-wrap justify-content-center align-content-between">
-  {% for post in allPosts %}
+<div class="col-9 p-5 m-auto d-flex flex-wrap justify-content-center">
+  {% for post in news %}
      
     <div class="card px-0 m-3 col-5 ">
-      <a href='{{post.href}}' class='black'>
+      <a href='{{post.href}}' class='text-dark'>
       <img class="card-img-top px-0 mx-0" src="{{ post.img }}" alt="{{post.alt}}">
       <div class="card-body">
             <h3 class="card-title">{{post.title}}</h3>

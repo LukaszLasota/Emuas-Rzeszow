@@ -1,105 +1,111 @@
-{% extends 'base.html.twig' %}
-
-{% block title %}{% endblock %}
-
-{% block body %}
+{% extends 'base.html.twig' %} {% block title %}{% endblock %} {% block body %}
 
 <header>
 
-  <nav class="navbar d-flex justify-content-between fixed-top navbar-expand-lg m-0 p-0">
-    
-    <h1 class="navbar-brand col-4 col-md-3 col-lg-2 col-xl-1 m-0 py-0" href="/"><img class="d-block w-75" src="img/logo/logo-menu-white.png" alt="Transmisja nabożeństw"></h1> 
-    
-    <button class="navbar-toggler custom-toggler px-1 py-0 m-1" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <nav class="navbar d-flex justify-content-between fixed-top navbar-expand-lg m-0 p-0">
+
+        <h1 class="navbar-brand col-4 col-md-3 col-lg-2 col-xl-1 m-0 py-0" aria-expanded="true" href="http://emaus.rzeszow.pl/">
+            <a href="/">
+                <img class="d-block w-75" src="img/logo/logo-menu-white.png" alt="Transmisja nabożeństw">
+            </a>
+        </h1>
+
+        <button class="navbar-toggler custom-toggler px-1 py-0 m-1" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon p-4 p-md-4"></span>
     </button>
-    
-    <div class="collapse navbar-collapse col-12 col-lg-9 col-xl-6  m-0 p-0" id="navbarNavDropdown">
-      <ul class="navbar-nav d-flex justify-content-between col-12 m-0 p-0">
-        {% for item in menu %}
-          <li class="nav-item col-12 col-lg-3 d-flex justify-content-center p-0">
-            <a class="nav-link text-uppercase text-white hover p-4 p-lg-0" href="{{item.href }}">{{item.name}}</a>
-          </li>
-        {% endfor %}
-      </ul>
-    </div>
 
-  </nav>
+        <div class="collapse navbar-collapse col-12 col-lg-9 col-xl-6  m-0 p-0" id="navbarNavDropdown">
+            <ul class="navbar-nav d-flex justify-content-between col-12 m-0 p-0">
+                {% for item in menu %}
+                <li class="nav-item col-12 col-lg-3 d-flex justify-content-center p-0">
+                    <a class="nav-link text-uppercase text-white hover p-4 p-lg-0" href="{{item.href }}">{{item.name}}</a>
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
 
-<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-  <ol class="carousel-indicators">
-    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-  </ol>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-        <picture>
-            <source media="(max-width:600px)" srcset="img/main/1s.jpg">
-            <img class="d-block w-100" src="img/main/1.jpg" alt="Transmisja nabożeństw">
-        </picture>
+    </nav>
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <picture>
+                    <source media="(max-width:600px)" srcset="img/main/1s.jpg">
+                    <img class="d-block w-100" src="img/main/1.jpg" alt="Transmisja nabożeństw">
+                </picture>
+            </div>
+            <div class="carousel-item">
+                <picture>
+                    <source media="(max-width:600px)" srcset="img/main/2s.jpg">
+                    <img class="d-block w-100" src="img/main/2.jpg" alt="Nabożeńśtwa niedzielne: 10.00 oraz środowe: 18.00">
+                </picture>
+            </div>
+            <div class="carousel-item">
+                <picture>
+                    <source media="(max-width:600px)" srcset="img/main/3s.jpg">
+                    <img class="d-block w-100" src="img/main/3.jpg" alt="Spotkania Modlitewne">
+                </picture>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="swiper-button-prev swiper-button-white" aria-hidden="true"></span>
+            <span class="sr-only">Poprzedni</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="swiper-button-next swiper-button-white" aria-hidden="true"></span>
+            <span class="sr-only">Następny</span>
+        </a>
     </div>
-    <div class="carousel-item">
-      <picture>
-            <source media="(max-width:600px)" srcset="img/main/2s.jpg">
-            <img class="d-block w-100" src="img/main/2.jpg" alt="Nabożeńśtwa niedzielne: 10.00 oraz środowe: 18.00">
-        </picture>
-    </div>
-    <div class="carousel-item">
-      <picture>
-            <source media="(max-width:600px)" srcset="img/main/3s.jpg">
-            <img class="d-block w-100" src="img/main/3.jpg" alt="Spotkania Modlitewne">
-        </picture>
-    </div>
-  </div>
-  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Poprzedni</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Następny</span>
-  </a>
-</div>
 </header>
 <main>
-  <section class="first d-flex wrap">
-    <div class="welcome col-6">
-    
-    </div>
-    
-    <div class="news col-6">
-  <!-- Swiper -->
-  <div class="swiper-container d-flex wrap m-auto col-10">
-    
-    <div class="swiper-wrapper">
-      {% for post in allPosts %}
-      <div class="swiper-slide">
-        <div class="card">
-          <a href='{{post.href}}'>
-          <img class="card-img-top" src="{{ post.img }}" alt="{{post.alt}}">
-          <div class="card-body">
-            <h3 class="card-title">{{post.title}}</h3>
-            <p class="card-text">{{post.postOne}}</p>
-            <p class="card-text">{{post.postTwo}}</p>
-            <p class="card-text">{{post.postThree}}</p>
-          </div>
-          </a>
+    <section class="first d-flex flex-wrap">
+        <div class="welcome col-6 p-0">
+            <a href="#" title="Kliknij">
+                <div class="welcome-one d-flex flex-wrap justify-content-center align-content-around">
+                    <img src="img/logo/logo-white.png" alt="Logo zboru">
+                    <p>WITAJ</p>
+                    <p>Miło nam, że możemy Cię tutaj powitać...</p>
+                </div>
+            </a>
         </div>
-      </div>
-      {% endfor %}
-    </div>
-    
-    <!-- Add Pagination -->
-    <div class="swiper-pagination"></div>
-    <!-- Add Arrows -->
-    <div class="swiper-button-next"></div>
-    <div class="swiper-button-prev"></div>
-  </div>
 
-</div>
-    
-  </section>
+        <div class="news col-6">
+            <!-- Swiper -->
+            <div class="swiper-container d-flex wrap m-auto col-10">
+
+                <div class="swiper-wrapper ">
+                    {% for post in news %}
+                    <div class="swiper-slide">
+                        <div class="card col-9 my-3 p-0">
+                            <a href='{{post.href}}' class='text-dark'>
+                                <img class="card-img-top" src="{{post.img}}" alt="{{post.alt}}">
+                                <div class="card-body text-left">
+                                    <h3 class="card-title">{{post.title}}</h3>
+                                    <p class="card-text">{{post.postOne}}</p>
+                                    <p class="card-text">{{post.postTwo}}</p>
+                                    <p class="card-text">{{post.postThree}}</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+                <!-- Add Arrows -->
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+
+        </div>
+
+    </section>
 
 </main>
 

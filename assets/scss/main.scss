@@ -3,18 +3,16 @@
 @import 'variables';
 @import 'universal';
 @import 'menu';
-
-
-
+@import 'news';
 .swiper-container {
     width: 100%;
     height: 100%;
-  }
-  .swiper-slide {
+}
+
+.swiper-slide {
     text-align: center;
     font-size: 18px;
     background: #fff;
-
     /* Center slide text vertically */
     display: -webkit-box;
     display: -ms-flexbox;
@@ -28,4 +26,4 @@
     -ms-flex-align: center;
     -webkit-align-items: center;
     align-items: center;
-  }
+}

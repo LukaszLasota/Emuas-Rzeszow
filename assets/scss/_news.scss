@@ -1,0 +1,19 @@
+.card {
+    border: 1px solid #008089;
+    a:hover {
+        text-decoration: none;
+    }
+}
+
+.welcome-one {
+    background: $BG;
+    height: 75vh;
+    img {
+        height: 40%;
+    }
+    p {
+        color: white;
+        text-transform: none;
+        width: 100%;
+    }
+}
