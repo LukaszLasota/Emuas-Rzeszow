@@ -5,15 +5,29 @@
     }
 }
 
-.welcome-one {
+.first{
+padding-top: 2px;
+}
+
+.welcome{
     background: $BG;
-    height: 75vh;
-    img {
-        height: 40%;
+    height: 95vh;
+    a{
+        height: 95vh;
     }
-    p {
-        color: white;
-        text-transform: none;
-        width: 100%;
+    a:hover{
+        text-decoration: none;
+    }
+    .welcome-img{
+        height: 50%;
+        padding-bottom: 5%;
+        img{
+            height: 60%;
+            width: auto;
+        }
+    }
+    .welcome-text{
+        height: 50%;
+        font-size: 1.3rem;
     }
 }
