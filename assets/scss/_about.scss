@@ -3,6 +3,10 @@
         figcaption{
             opacity: 1;
         }
+        .about-one-overlay{
+            opacity: 0.6;
+            }
+        
     }
    position: relative;
    figure{
@@ -27,9 +31,9 @@
     height: 100%;
     z-index: 1;
     transition: 0.5s opacity linear;
-    &:hover{
-        opacity: 0.6;
-    }
+    // &:hover{
+    //     opacity: 0.6;
+    // }
 
    }
 }
