@@ -42,28 +42,36 @@ class IndexController extends AbstractController
                 'text' => 'Nabożeństwa odbywają się w każdą niedzielę o godzinie 10:00 w Rzeszowie,przy ul.
                 Dąbrowskiego 1a (w kaplicy zboru). Nabożeństwa mają charakter otwarty, możesz zaprosić
                 swoją rodzinę i przyjaciół. Po nabożeństwie zapraszamy Cię na kawę/herbatę oraz ciastko.
-                Istnieje możliwość tłumaczenia nabożeństwa na język angielski.'
+                Istnieje możliwość tłumaczenia nabożeństwa na język angielski.',
+                'href' => '',
+                'hrefText' => ''
                 ],
                 [
                 'name' => 'Spotkania modlitewne',
                 'time' => 'Niedziela: 9.15',
                 'place' => 'ul. Dąbrowskiego 1a',
-               'text' => 'potkania odbywają się w każdą niedzielę o godzinie 9:15 przed nabożeństwem niedzielnym przy
+               'text' => 'Spotkania odbywają się w każdą niedzielę o godzinie 9:15 przed nabożeństwem niedzielnym przy
                ul. Dąbrowskiego 1a w Rzeszowie (w kaplicy zboru). Jeśli masz jakiś problem z którym się
                borykasz, nie widzisz rozwiązania i celu w swoim życiu, to przyjdź – chętnie się pomodlimy o
-               Ciebie lub o Twoich bliskich.'
+               Ciebie lub o Twoich bliskich.',
+               'href' => '',
+                'hrefText' => ''
                 ],
                 [
                 'name' => 'Studium Online',
                 'time' => 'Czwartek: 18.00',
                 'place' => 'Online',
-                'text' => 'spotkania odbywaja się przez aplikacje ZOOM, wiecej szczegw pod linkiem: <a href="#" >Studium online</a> '
+                'text' => 'Spotkania odbywaja się przez aplikacje ZOOM, wiecej szczegw pod linkiem:',
+                'href' => '/studium-online',
+                'hrefText' => 'www.emaus.rzeszow.pl/studium-online'
                 ],
                 [
                 'name' => 'Kawa z pastorem',
                 'time' => 'Środa: 18.00',
                 'place' => 'Online',
-                'text' => 'spotkania odbywaja się przez aplikacje ZOOM, wiecej szczegw pod linkiem: <a href="#" >kawa online</a> '
+                'text' => 'Spotkania odbywaja się przez aplikacje ZOOM, wiecej szczegw pod linkiem:',
+                'href' => '/kawa-online',
+                'hrefText' => 'www.emaus.rzeszow.pl/kawa-online'
                 ],
                 [
                 'name' => 'Nabożeństwo środowe',
@@ -72,25 +80,33 @@ class IndexController extends AbstractController
                 'text' => 'Nabożeństwa odbywają się w każdą środę o godzinie 18:00 w Rzeszowie, przy ul.
                 Dąbrowskiego 1a (w kaplicy zboru). Nabożeństwa mają charakter otwarty, możesz zaprosić
                 swoją rodzinę i przyjaciół. Jest to dobry czas, aby spotkać się z Bogiem w tygodniu i
-                podziękować Mu za mijający dzień. '
+                podziękować Mu za mijający dzień. ',
+                'href' => '',
+                'hrefText' => ''
                 ],
                 [
                 'name' => 'Royal Rangers',
                 'time' => 'Piątek: 18.00',
                 'place' => 'ul. Dąbrowskiego 1a',
-                'text' => 'Spotkania obecnie są zawieszone, po więcej szczegółów zapraszamy na strone: <a href="https://www.facebook.com/Dynamis-MR-1273639636074462/" target="_blank">www.facebook.com/Dynamis-MR.'
+                'text' => 'Spotkania obecnie są zawieszone, po więcej szczegółów zapraszamy na strone:',
+                'href' => 'http://www.royalrangers.pl/',
+                'hrefText' => 'www.royalrangers.pl/'
                 ],
                 [
                 'name' => 'Spotkania studenckie',
                 'time' => 'wtorek: 19.00',
                 'place' => 'ul. Dąbrowskiego 1a',
-                'text' => 'Spotkania odbywaja się online, po więcej szczegółów zapraszamy na strone: <a href="http://www.royalrangers.pl/" target="_blank">http://www.royalrangers.pl/'
+                'text' => 'Spotkania odbywaja się online, po więcej szczegółów zapraszamy na strone:',
+                'href' => 'https://www.facebook.com/Dynamis-MR-1273639636074462/',
+                'hrefText' => 'www.facebook.com/Dynamis-MR'
                 ],
                 [
                 'name' => 'Akcja Humanitarna "Życie"',
                 'time' => 'Czwartek: 18.00',
                 'place' => 'ul. Dąbrowskiego 1a',
-                'text' => 'Spotkania obecnie są zawieszone'
+                'text' => 'Spotkania obecnie są zawieszone',
+                'href' => 'http://ahzycie.com/',
+                'hrefText' => 'www.ahzycie.com'
                 ],
                 ]
         ]);

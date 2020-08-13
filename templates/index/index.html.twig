@@ -152,10 +152,10 @@
     </section>
     <section class="meet d-flex flex-wrap justify-content-center">
         
-        <h2 class="main-h2 p-5 w-100 text-center">Nasze spotkania</h2>
+        <h2 class="main-h2 w-100 text-center">Nasze spotkania</h2>
         
         {% for meet in meetings %}
-        <label class="card-label col-12 col-md-6 col-lg-4 col-xl-3">
+        <label class="card-label col-12 col-md-6 col-lg-4 col-xl-3 my-0">
             <input type="checkbox"  />
             <div class="card-x">
                 <div class="front">
@@ -165,7 +165,8 @@
                     <p class="more-paragraph">więcej</p>
                 </div>
                 <div class="back">
-                    <p>{{meet.text}}</p>
+                    <p>{{meet.text}} <a href="{{meet.href}}">{{meet.hrefText}}</a></p>
+                    
                 </div>
             </div>
         </label>
