@@ -150,17 +150,27 @@
         </div>   
         
     </section>
-    <section class="meet d-flex flex-wrap position-relative justify-content-center">
+    <section class="meet d-flex flex-wrap justify-content-center">
         
-        <h2 class="main-h2">Nasze spotkania</h2>
+        <h2 class="main-h2 p-5 w-100 text-center">Nasze spotkania</h2>
         
-        <label class="card-label">
+        {% for meet in meetings %}
+        <label class="card-label col-12 col-md-6 col-lg-4 col-xl-3">
             <input type="checkbox"  />
             <div class="card-x">
-                <div class="front">Front</div>
-                <div class="back">Back</div>
+                <div class="front">
+                    <h3>{{meet.name}}</h3>
+                    <p>{{meet.time}}</p>
+                    <p>{{meet.place}}</p>
+                    <p class="more-paragraph">więcej</p>
+                </div>
+                <div class="back">
+                    <p>{{meet.text}}</p>
+                </div>
             </div>
         </label>
+         {% endfor %} 
+
     </section>
 
 

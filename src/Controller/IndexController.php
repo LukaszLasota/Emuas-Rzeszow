@@ -34,6 +34,65 @@ class IndexController extends AbstractController
                 'name' => 'kontakt',
                 ]
                 ],
+                'meetings' => [
+                [
+                'name' => 'Nabożeństwo niedzielne',
+                'time' => 'Niedziela: 10.00',
+                'place' => 'ul. Dąbrowskiego 1a',
+                'text' => 'Nabożeństwa odbywają się w każdą niedzielę o godzinie 10:00 w Rzeszowie,przy ul.
+                Dąbrowskiego 1a (w kaplicy zboru). Nabożeństwa mają charakter otwarty, możesz zaprosić
+                swoją rodzinę i przyjaciół. Po nabożeństwie zapraszamy Cię na kawę/herbatę oraz ciastko.
+                Istnieje możliwość tłumaczenia nabożeństwa na język angielski.'
+                ],
+                [
+                'name' => 'Spotkania modlitewne',
+                'time' => 'Niedziela: 9.15',
+                'place' => 'ul. Dąbrowskiego 1a',
+               'text' => 'potkania odbywają się w każdą niedzielę o godzinie 9:15 przed nabożeństwem niedzielnym przy
+               ul. Dąbrowskiego 1a w Rzeszowie (w kaplicy zboru). Jeśli masz jakiś problem z którym się
+               borykasz, nie widzisz rozwiązania i celu w swoim życiu, to przyjdź – chętnie się pomodlimy o
+               Ciebie lub o Twoich bliskich.'
+                ],
+                [
+                'name' => 'Studium Online',
+                'time' => 'Czwartek: 18.00',
+                'place' => 'Online',
+                'text' => 'spotkania odbywaja się przez aplikacje ZOOM, wiecej szczegw pod linkiem: <a href="#" >Studium online</a> '
+                ],
+                [
+                'name' => 'Kawa z pastorem',
+                'time' => 'Środa: 18.00',
+                'place' => 'Online',
+                'text' => 'spotkania odbywaja się przez aplikacje ZOOM, wiecej szczegw pod linkiem: <a href="#" >kawa online</a> '
+                ],
+                [
+                'name' => 'Nabożeństwo środowe',
+                'time' => 'Środa: 18.00',
+                'place' => 'ul. Dąbrowskiego 1a',
+                'text' => 'Nabożeństwa odbywają się w każdą środę o godzinie 18:00 w Rzeszowie, przy ul.
+                Dąbrowskiego 1a (w kaplicy zboru). Nabożeństwa mają charakter otwarty, możesz zaprosić
+                swoją rodzinę i przyjaciół. Jest to dobry czas, aby spotkać się z Bogiem w tygodniu i
+                podziękować Mu za mijający dzień. '
+                ],
+                [
+                'name' => 'Royal Rangers',
+                'time' => 'Piątek: 18.00',
+                'place' => 'ul. Dąbrowskiego 1a',
+                'text' => 'Spotkania obecnie są zawieszone, po więcej szczegółów zapraszamy na strone: <a href="https://www.facebook.com/Dynamis-MR-1273639636074462/" target="_blank">www.facebook.com/Dynamis-MR.'
+                ],
+                [
+                'name' => 'Spotkania studenckie',
+                'time' => 'wtorek: 19.00',
+                'place' => 'ul. Dąbrowskiego 1a',
+                'text' => 'Spotkania odbywaja się online, po więcej szczegółów zapraszamy na strone: <a href="http://www.royalrangers.pl/" target="_blank">http://www.royalrangers.pl/'
+                ],
+                [
+                'name' => 'Akcja Humanitarna "Życie"',
+                'time' => 'Czwartek: 18.00',
+                'place' => 'ul. Dąbrowskiego 1a',
+                'text' => 'Spotkania obecnie są zawieszone'
+                ],
+                ]
         ]);
     }
 }

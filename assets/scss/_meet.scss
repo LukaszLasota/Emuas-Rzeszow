@@ -1,5 +1,6 @@
-
-
+.meet{
+padding: 80px 0 500px;
+}
 
 .card-label {
     -webkit-perspective: 1000px;
@@ -7,15 +8,12 @@
     -webkit-transform-style: preserve-3d;
     transform-style: preserve-3d;
     display: block;
-    width: 25%;
-    height: 200px;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+    height: 220px;
+    // -webkit-transform: translate(-50%, -50%);
+    // transform: translate(-50%, -50%);
     cursor: pointer;
 }
+
 
 .card-x {
     position: relative;
@@ -26,6 +24,15 @@
     -webkit-transition: all 600ms;
     transition: all 600ms;
     z-index: 20;
+    h3{
+        width: 100%;
+        padding: 10px;
+    }
+    p{
+        width: 100%;
+        padding: 5px;
+        font-size: 1.1rem;
+    }
 }
 
     .card-x div {
@@ -34,23 +41,54 @@
         width: 100%;
         background: #FFF;
         text-align: center;
-        line-height: 200px;
+        line-height: 150%;
         -webkit-backface-visibility: hidden;
         backface-visibility: hidden;
         border-radius: 2px;
+        padding: 15px;
     }
 
+
+    .card-x .front{
+        color: black;
+        p{
+            text-align: center;
+        }
+    }
     .card-x .back {
-        background: #222;
-        color: #FFF;
+        color:black;
         -webkit-transform: rotateX(180deg);
         transform: rotateX(180deg);
+        p{
+            text-align: left;
+        }
     }
 
-label:hover .card-x {
-    -webkit-transform: rotateX(20deg);
-    transform: rotateX(20deg);
-    box-shadow: 0 20px 20px rgba(50,50,50,.2);
+// label:hover .card-x {
+//     -webkit-transform: rotateX(20deg);
+//     transform: rotateX(20deg);
+//     box-shadow: 0 20px 20px rgba(50,50,50,.2);
+// }
+
+.card-x::after
+{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -webkit-background: $BG;
+  -moz-background: $BG;
+  background: $BG;
+  opacity: 0;
+  transition: opacity 0.6s;
+  z-index: -1;
+}
+
+label:hover .card-x::after
+{
+  opacity: 1;
 }
 
 input {
@@ -62,8 +100,39 @@ input {
     -webkit-transform: rotateX(180deg);
 }
 
-label:hover :checked + .card-x {
-    transform: rotateX(160deg);
-    -webkit-transform: rotateX(160deg);
-    box-shadow: 0 20px 20px rgba(255,255,255,.2);
+    .card-x::after
+{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -webkit-background: $BG;
+  -moz-background: $BG;
+  background: $BG;
+  opacity: 0;
+  transition: opacity 0.6s;
+  z-index: -1;
+}
+
+.card-x:hover::after
+{
+  opacity: 1;
+}
+
+// label:hover :checked + .card-x {
+//     transform: rotateX(160deg);
+//     -webkit-transform: rotateX(160deg);
+//     box-shadow: 0 20px 20px rgba(255,255,255,.2);
+// }
+
+.more-paragraph{
+    display: none;
+}
+
+@media (max-width: 1025px){
+    .more-paragraph{
+        display: block;
+    }
 }
