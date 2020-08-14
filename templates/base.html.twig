@@ -4,15 +4,23 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="shortcut icon" href="img/logo/logo-black.png" type="image/x-icon" />
+
+        <meta name="description" content="Kościół Zielonoświątkowy w Rzeszowie, Zielonoświątkowcy Rzeszów, Protestanci Rzeszów, Zbór, Chrześcijanie, Nabożeństwa, Jesus Chrystus, Mniejszości wyznaniowe, Kościół w Rzeszowie, KZ Rzeszów, KZ, Pentecostal church, Christian, community" />
+        <meta name="keywords"
+	    content="Kościół Zielonoświątkowy w Rzeszowie, Zielonoświątkowcy Rzeszów, Protestanci Rzeszów, Zbór, Chrześcijanie, Nabożeństwa, Jesus Chrystus, Mniejszości wyznaniowe ,KZ Rzeszów, KZ, Pentecostal church, Christian, community" />
+
         <title>{% block title %}Kościół Zielonoświątkowy Zbór Emaus w Rzeszowie{% endblock %}</title>
         {% block stylesheets %}
             {# 'app' must match the first argument to addEntry() in webpack.config.js #}
             {{ encore_entry_link_tags('app') }}
-
+            
             <!-- Renders a link tag (if your module requires any CSS)
                  <link rel="stylesheet" href="/build/app.css"> -->
         {% endblock %}
     </head>
+
     <body>
         {% block body %}{% endblock %}
          

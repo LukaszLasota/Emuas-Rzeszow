@@ -1,7 +1,15 @@
 .contact{
     background: $BG;
+    padding-bottom: 100px;
     p{
-        font-size: 1.1rem;
+        font-size: 1.2rem;
         margin-bottom: 10px;
     }
+    a{
+        color: white;
+    }
+    textarea{
+        height: 150px;
+    }
+    
 }
