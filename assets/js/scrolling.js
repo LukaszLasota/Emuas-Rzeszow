@@ -1,6 +1,6 @@
 //Smooth scrolling
 
-$('.navbar a').on('click', function(e) {
+$('.navbar a, footer a').on('click', function(e) {
     // e.preventDefault()
     
       $('html, body').animate(

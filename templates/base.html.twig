@@ -24,6 +24,67 @@
     <body>
         {% block body %}{% endblock %}
          
+    {% block footer %}
+       <footer class="footer col-12">
+        <div class="footer-container mx-auto col-8 d-flex flex-wrap justify-content-center text-white p-5">
+            <div class="footer-one col-12 col-lg-4 d-flex flex-wrap justify-content-center">
+                <h4 class="col-12 py-4">MENU</h4>
+                <ul class="col-12 mx-0 list-unstyled">
+                    <li>
+                        <a href="/" class="text-white">GŁÓWNA</a>
+                    </li>
+                    <li>
+                        <a href="/#Two" class="text-white">KIM JESTEŚMY</a>
+                    </li>
+                    <li>
+                        <a href="/#Three" class="text-white">NASZE SPOTKANIA</a>
+                    </li>
+                    <li>
+                        <a href="/aktualnosci" class="text-white">AKTUALNOŚCI</a>
+                    </li>
+                    <li>
+                        <a href="/#Four" class="text-white">KONTAKT</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-one col-12 col-lg-4 d-flex flex-wrap justify-content-center">
+                <h4 class="col-12 py-4">NA SKRÓTY</h4>
+                <ul class="col-12 mx-0 list-unstyled">
+                    <li>
+                        <a href="https://pl-pl.facebook.com/Ko%C5%9Bci%C3%B3%C5%82-Zielono%C5%9Bwi%C4%85tkowy-Zb%C3%B3r-Emaus-w-Rzeszowie-159801290724840/" class="text-white">Facebook</a>
+                    </li>
+                    <li>
+                        <a href="https://www.facebook.com/Dynamis-MR-1273639636074462/" target="_blank" class="text-white">Dynamis-MR</a>
+                    </li>
+                    <li>
+                        <a href="https://www.facebook.com/DaughtersofKINGliveinQueensdom/?__tn__=%2Cd%2CP-R&eid=ARAfDj9o_TkheYVb_ECPs3Y3wymSe1aUnyJ_5dUXPqIoT5CslN7EHj7ta4yJKjcyojaEP4HKSNrmsn5w" class="text-white">Queensdom</a>
+                    </li>
+                    <li>
+                        <a href="http://www.royalrangers.pl/" class="text-white">Royal Rangers</a>
+                    </li>
+                    <li>
+                        <a href="" class="text-white">RODO</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-one col-12 col-lg-4 d-flex flex-wrap justify-content-center">
+                <h4 class="col-12 py-4">KONTAKT</h4>
+                <ul class="col-12 mx-0 list-unstyled -flex flex-wrap justify-content-center mx-auto">
+                    <li>
+                        <a >TELEFON: 17 85 29 641</a>
+                    </li>
+                    <li>
+                        <a href="mailto:emausrz@gmail.com" class="text-white">EMAUSRZ@GMAIL.COM</a>
+                    </li>
+                    <li>
+                        <a >UL. DĄBROWSKIEGO 1A, <br>35-036 RZESZÓW</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+       </footer>
+    {% endblock %}
+        
          {% block javascripts %}
             {{ encore_entry_script_tags('app') }}
 
