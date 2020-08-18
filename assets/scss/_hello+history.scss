@@ -1,0 +1,26 @@
+.hello{
+    padding: 180px 0;
+    @media (max-width: 600px){
+        padding: 140px 0;
+    }
+    p{
+        font-size: 1.1rem;
+    }
+}
+
+.history{
+    h2{
+        @media (max-width: 600px){
+            font-size: 1.6rem;
+        }
+    }
+    h3{
+        font-size: 1.5rem;
+        padding: 30px 0;
+    }
+    P{
+        font-size: 1.2rem;
+        text-align: left;
+        padding: 20px 0;
+    }
+}
