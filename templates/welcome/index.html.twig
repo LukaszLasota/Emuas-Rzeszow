@@ -1,0 +1,26 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}{% endblock %}
+
+{% block body %}
+<header>
+  {% include "components/menu.html.twig" %}
+
+  <div class="col-12 p-0 m-0">
+    <picture >
+        <source srcset="img/subpage/witaj.png" media="(max-width: 480px)">
+        <img  class="col-12 p-0 m-0" src="img/subpage/witaj.png" alt="Witaj">
+    </picture>
+  </div>
+</header>
+<main>
+    <section class="hello">
+        
+        {% for post in text %}
+        <p class="col-10 col-md-9 col-xl-6 mx-auto p-1 text-justify" >{{post.one}}</p> 
+        {% endfor %}
+        <p class="col-10 col-md-9 col-xl-6 mx-auto font-weight-bold p-1" >{{textBold}}</p>
+
+    </section>
+</main>
+{% endblock %}
