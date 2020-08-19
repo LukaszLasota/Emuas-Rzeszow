@@ -36,7 +36,9 @@ var swiper = new Swiper('.swiper-container', {
     },
   });
 
-import './scrolling'
+import './scrolling';
+
+$('.collapse').collapse();
 
 // import './CustomGoogleMapMarker.js';
 // import './main.js';

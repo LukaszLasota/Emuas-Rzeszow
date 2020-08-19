@@ -1,0 +1,16 @@
+.law{
+    padding: 100px 0 220px;
+    p{
+        @media (min-width: 1500px){
+            width: 60%;
+        }
+    }
+    .accordion{
+        @media (min-width: 1500px){
+            width: 60%;
+        }
+    }
+    h2{
+        color: black;
+    }
+}
