@@ -10,7 +10,21 @@
             width: 60%;
         }
     }
-    h2{
-        color: black;
+    h3{
+        button{
+            font-size: 1.4rem;
+            color: black;
+        }
+    }
+    .card-body{
+        ul{
+            width: 100%;
+            padding-left: 0;
+            font-size: 1.2rem;
+            li{
+                padding-left: 25px;
+                list-style: none;
+            }
+        }
     }
 }
