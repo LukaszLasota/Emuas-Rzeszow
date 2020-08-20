@@ -14,17 +14,30 @@
         button{
             font-size: 1.4rem;
             color: black;
+            text-transform: uppercase;
+            @media (max-width: 600px){
+                font-size: 1.1rem;
+            }
         }
     }
     .card-body{
+        @media (max-width: 600px){
+            padding: 5px;
+        }
         ul{
             width: 100%;
             padding-left: 0;
             font-size: 1.2rem;
             padding: 10px;
+            @media (max-width: 600px){
+                font-size: 1.0rem;
+            }
             li{
                 padding: 5px 5px 0px 25px;
                 list-style: none;
+                @media (max-width: 600px){
+                    padding: 5px 5px 0px 15px;
+                }
                 ul li{
                     padding: 5px;   
                 }
@@ -35,5 +48,31 @@
             margin-left: 25px;
             padding: 4px;
         }
+    }
+}
+
+.faith{
+    padding: 100px 0 220px;
+    .accordion{
+        @media (min-width: 1500px){
+            width: 60%;
+        }
+    }
+    h3{
+        button{
+            font-size: 1.4rem;
+            color: black;
+            text-transform: uppercase;
+            @media (max-width: 600px){
+                font-size: 1.1rem;
+            }
+        }
+    }
+    p{
+        font-size: 1.2rem;
+    }
+    li{
+        font-size: 1.2rem;
+        padding: 5px;
     }
 }
