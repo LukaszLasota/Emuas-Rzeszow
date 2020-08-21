@@ -76,3 +76,31 @@
         padding: 5px;
     }
 }
+
+.comparison{
+    padding: 100px 0 220px;
+    .accordion{
+        @media (min-width: 1500px){
+            width: 60%;
+        }
+    }
+    h3{
+        button{
+            font-size: 1.4rem;
+            color: black;
+            text-transform: uppercase;
+            @media (max-width: 600px){
+                font-size: 1.1rem;
+            }
+        }
+    }
+    p{
+        font-size: 1.2rem;
+    }
+    .main-h2{
+        font-size: 1.6rem;
+        @media (min-width: 1500px){
+            width: 60%;
+        }
+    }
+}
