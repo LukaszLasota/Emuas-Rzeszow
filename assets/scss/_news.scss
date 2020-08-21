@@ -12,6 +12,7 @@ padding-top: 2px;
 .welcome{
     background: $BG;
     height: 95vh;
+    
     a{
         height: 95vh;
     }
@@ -29,5 +30,10 @@ padding-top: 2px;
     .welcome-text{
         height: 50%;
         font-size: 1.3rem;
+    }
+}
+.sub-news{
+    @media (min-width: 1500px){
+        width: 70%;
     }
 }

@@ -38,7 +38,7 @@ var swiper = new Swiper('.swiper-container', {
 
 import './scrolling';
 
-$('.collapse').collapse();
+// $('.collapse').collapse();
 
 // import './CustomGoogleMapMarker.js';
 // import './main.js';

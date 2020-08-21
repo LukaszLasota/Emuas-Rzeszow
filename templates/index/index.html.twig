@@ -11,8 +11,8 @@
         </h1>
 
         <button class="navbar-toggler custom-toggler px-1 py-0 m-1" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon p-4 p-md-4"></span>
-    </button>
+        <span class="navbar-toggler-icon p-4 p-md-4"></span>
+        </button>
 
         <div class="collapse navbar-collapse col-12 col-lg-9 col-xl-6  m-0 p-0" id="navbarNavDropdown">
             <ul class="navbar-nav d-flex justify-content-between col-12 m-0 p-0">
@@ -21,8 +21,10 @@
                     <a class="nav-link text-uppercase text-white hover p-4 p-lg-0" href="{{item.href }}">{{item.name}}</a>
                 </li>
                 {% endfor %}
-            </ul>
+            </ul>   
         </div>
+
+        <div class="scrollup"><a href="#One"><span class="swiper-button-next swiper-button-white"></span></a></div>
 
     </nav>
 
@@ -64,7 +66,7 @@
 </header>
 <main>
     <section class="first d-flex flex-wrap" id="One">
-        <div class="welcome col-12 col-lg-6 px-0 py-2 d-flex flex-wrap">
+        <div class="welcome col-12 col-xl-6 px-0 py-2 d-flex flex-wrap">
             <a href="/witaj"  class="w-100" title="Czytaj dalej">
                 
                 <div class="welcome-img col-12 d-flex justify-content-center align-items-end ">
@@ -79,18 +81,18 @@
             </a>
         </div>
 
-        <div class="news col-12 col-lg-6">
+        <div class="news col-12 col-xl-6">
             
             <h2 class="main-h2 w-100 text-center">Aktualności</h2>
             
             <!-- Swiper -->
-            <div class="swiper-container d-flex wrap m-auto col-10">
+            <div class="swiper-container d-flex wrap m-auto col-12 col-md-10">
 
                 <div class="swiper-wrapper ">
                     {% for post in news %}
                     <div class="swiper-slide">
-                        <div class="card col-9 my-3 p-0">
-                            <a href='{{post.href}}' class='text-dark'>
+                        <div class="card col-10 col-md-9 my-3 p-0">
+                            <a href='/aktualnosci' class='text-dark'>
                                 <img class="card-img-top" src="{{post.img}}" alt="{{post.alt}}">
                                 <div class="card-body text-left">
                                     <h3 class="card-title">{{post.title}}</h3>
@@ -158,7 +160,7 @@
         <h2 class="main-h2 w-100 text-center">Nasze spotkania</h2>
         
         {% for meet in meetings %}
-        <label class="card-label col-12 col-md-6 col-lg-4 col-xl-3 my-0">
+        <label class="card-label col-12 col-md-6 col-xl-3 my-0">
             <input type="checkbox"  />
             <div class="card-x">
                 <div class="front">
