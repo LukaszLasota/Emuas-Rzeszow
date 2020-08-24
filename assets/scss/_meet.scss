@@ -8,11 +8,17 @@ padding: 80px 0 200px;
     -webkit-transform-style: preserve-3d;
     transform-style: preserve-3d;
     display: block;
-    height: 220px;
+    height: 250px;
     // -webkit-transform: translate(-50%, -50%);
     // transform: translate(-50%, -50%);
     cursor: pointer;
     padding: 0;
+    @media (max-width: 1600px){
+        height: 315px;
+    }
+    @media (max-width: 800px){
+        height: 290px;
+    }
 }
 
 
@@ -41,6 +47,27 @@ padding: 80px 0 200px;
     p, h3{
         color: white;
     }
+}
+
+@media (max-width: 1025px){
+    
+.card-x::after
+{
+  content: "";
+  display: none;
+}
+
+.card-x:hover::after
+{
+    display: none;
+}
+
+.card-x:hover{
+    p, h3{
+        color: black;
+    }
+}
+
 }
 
 .card-x {
