@@ -27,3 +27,18 @@
         padding: 60px 10px 30px;
     }
 }
+
+.news{
+    @media (max-width: 600px){
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+    .swiper-button-next, .swiper-button-prev {
+        background: $BG-D;
+        padding: 35px 20px;
+        @media (max-width: 600px){
+            padding: 28px 18px;
+        }
+    }
+}
+

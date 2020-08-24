@@ -26,6 +26,8 @@
     h3{
         font-size: 1.5rem;
         padding: 25px 0;
+        letter-spacing: 1px;
+        @include gradient;
         @media (max-width: 800px){
             padding: 20px 0;
         }

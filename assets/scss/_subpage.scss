@@ -11,6 +11,7 @@
         }
     }
     h3{
+        @include gradient;
         button{
             font-size: 1.4rem;
             color: black;
@@ -59,6 +60,7 @@
         }
     }
     h3{
+        @include gradient;
         button{
             font-size: 1.4rem;
             color: black;
@@ -88,6 +90,7 @@
         }
     }
     h3{
+        @include gradient;
         button{
             font-size: 1.4rem;
             color: black;
