@@ -5,7 +5,7 @@ $('.navbar a, footer a').on('click', function(e) {
     
       $('html, body').animate(
         {
-          scrollTop: $($(this).attr('href')).offset().top -50,
+          scrollTop: $($(this).attr('href')).offset().top -60,
         },
         500,
         'linear'

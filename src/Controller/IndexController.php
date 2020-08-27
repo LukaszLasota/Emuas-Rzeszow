@@ -18,19 +18,19 @@ class IndexController extends AbstractController
             'news' => $news->getPosts(),
             'menu' => [
                 [
-                'href' => '#One',
+                'href' => '#Two',
                 'name' => 'Aktualności',
                 ],
                 [
-                'href' => '#Two',
+                'href' => '#Three',
                 'name' => 'kim jesteśmy',
                 ],
                 [
-                'href' => '#Three',
+                'href' => '#Four',
                 'name' => 'nasze spotkania',
                 ],
                 [
-                'href' => '#Four',
+                'href' => '#Five',
                 'name' => 'kontakt',
                 ]
                 ],

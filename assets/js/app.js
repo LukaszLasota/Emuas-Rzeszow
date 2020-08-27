@@ -37,6 +37,8 @@ var swiper = new Swiper('.swiper-container', {
   });
 
 import './scrolling';
+import './background';
+
 
 // $('.collapse').collapse();
 
