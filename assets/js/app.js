@@ -36,12 +36,17 @@ var swiper = new Swiper('.swiper-container', {
     },
   });
 
+  
+
 import './scrolling';
 import './background';
 
 
-// $('.collapse').collapse();
+
+$('#myModal').modal('hide')
+
 
 // import './CustomGoogleMapMarker.js';
-// import './main.js';
-// import './initMap.js';
+// import './main-map-style.js';
+// import './maps.js' ;
+

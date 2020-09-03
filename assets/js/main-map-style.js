@@ -1,5 +1,5 @@
-var map;
-        var mapStyleJson = [{
+let map;
+        let mapStyleJson = [{
             "elementType": "geometry",
             "stylers": [{
                 "color": "#f5f5f5"

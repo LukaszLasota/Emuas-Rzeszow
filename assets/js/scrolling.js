@@ -1,11 +1,11 @@
 //Smooth scrolling
 
-$('.navbar a, footer a').on('click', function(e) {
+$('.navbar a, .h4-links a').on('click', function(e) {
     // e.preventDefault()
     
       $('html, body').animate(
         {
-          scrollTop: $($(this).attr('href')).offset().top -60,
+          scrollTop: $($(this).attr('href')).offset().top -50,
         },
         500,
         'linear'
