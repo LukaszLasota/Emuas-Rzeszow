@@ -37,16 +37,8 @@ var swiper = new Swiper('.swiper-container', {
   });
 
   
-
 import './scrolling';
 import './background';
 
-
-
 $('#myModal').modal('hide')
-
-
-// import './CustomGoogleMapMarker.js';
-// import './main-map-style.js';
-// import './maps.js' ;
 
