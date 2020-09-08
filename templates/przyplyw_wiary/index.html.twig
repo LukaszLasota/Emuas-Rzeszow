@@ -1,0 +1,36 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello PrzyplywWiaryController!{% endblock %}
+
+{% block body %}
+
+<header id="One">
+  {% include "components/menu.html.twig" %}
+</header>
+
+<main>
+<section class="news-text col-11 col-md-11 col-xl-9 mx-auto px-1 d-flex flex-wrap justify-content-center">
+
+<h2 class="main-h2">Witajcie Kochani,</h2>
+<p>Dodał: Marek Skrzypczak | 21.03.2020 r. | Emaus Rzeszów</p>
+
+<p>Polecam wszystkim na dzisiaj kazanie wygłoszone przez Biskupa Marka Kamińskiego, oraz proponuję na rodzinny seans piękny filmy oparty na faktach pt. „Przypływ wiary” z 2019 r. Koniecznie musicie go zobaczyć.</p>
+<p>Linki do kazania znajduje się poniżej. Co do filmu można go łatwo znaleźć wpisując w przeglądarce tytuł.</p>
+<p>Zostańcie z Bogiem.</p>
+<p>Pastor Marek Skrzypczak</p>
+<a href="https://www.youtube.com/watch?v=dTLVbmYZqdQ&feature=youtu.be&ab_channel=Ko%C5%9Bci%C3%B3%C5%82Zielono%C5%9Bwi%C4%85tkowyPL">Nie jesteś mi już więcej potrzebny | bp Marek Kamiński
+</a>
+
+
+
+<div class="col-12 col-md-9 col-x-6 d-flex justify-content-center p-0 pt-5 m-0">
+    <img  class="col-11" src="/img/news/2m.jpg" alt="Zdjecie piura">
+</div>
+
+</section>
+</main>
+{% endblock %}
+
+{% block footer %}
+  {% include "components/footer.html.twig" %}
+{% endblock %}

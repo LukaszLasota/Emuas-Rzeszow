@@ -48,7 +48,7 @@ class News {
                     'value' => 5,
                 ],
                 [
-                    'href'=>'/wieczerza-pańska',
+                    'href'=>'/wieczerza-panska',
                     'img'=> '/img/news/5.jpg',
                     'alt' => 'WIECZERZA PAŃSKA',
                     'title' => 'WIECZERZA PAŃSKA', 
