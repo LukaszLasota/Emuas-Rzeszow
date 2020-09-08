@@ -1,0 +1,34 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}{% endblock %}
+
+{% block body %}
+
+<header id="One">
+  {% include "components/menu.html.twig" %}
+</header>
+
+<main>
+<section class="news-text col-11 col-md-11 col-xl-9 mx-auto px-1 d-flex flex-wrap justify-content-center">
+
+<h2 class="main-h2">INFORMACJE DOTYCZĄCE NABOŻEŃSTW</h2>
+<p>Dodał: Marek Skrzypczak | 07.07.2020 r. | Emaus Rzeszów</p>
+
+<p>Informujemy, że ponownie odbywają się niedzielne nabożeństwa o godzinie 10.00 oraz środowe nabożeństwa o godzinie 18.00 w kaplicy naszego zboru przy ul. Dąbrowskiego 1a.</p>
+<p>Ze względu na obecnie obowiązujące regulacje prawne w nabożeństwach uczestniczyć mogą jedynie osoby w maseczkach lub innej osłonie na nos oraz usta.</p>
+<p>- Osoby które ze względów zdrowotnych nie mogą zakrywać twarzy, z uwagi na brak możliwości zachowania w zborze wystarczającej odległości prosimy o pozostanie w domach i uczestniczenie w transmisji online która będzie dostępna na naszym kanale na Youtube, link: <a href="https://www.youtube.com/channel/UCnjQJvg70iKbJLsJ4UX4rxA">www.youtube.com/channel</a></p>
+<p>Ponadto informujemy, że przy wejściu będzie znajdował się płyn do dezynfekcji rąk</p>
+
+
+<div class="col-12 col-md-9 col-x-6 d-flex justify-content-center p-0 pt-5 m-0">
+    <a href="https://www.youtube.com/channel/UCnjQJvg70iKbJLsJ4UX4rxA" title="Kliknij"><img class="col-11" src="/img/news/7.jpg" alt=""></a>
+</div>
+
+</section>
+</main>
+{% endblock %}
+
+{% block footer %}
+  {% include "components/footer.html.twig" %}
+{% endblock %}
+
