@@ -1,0 +1,38 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}{% endblock %}
+
+{% block body %}
+
+<header id="One">
+  {% include "components/menu.html.twig" %}
+</header>
+
+<main>
+<section class="news-text col-11 col-md-11 col-xl-9 mx-auto px-1 d-flex flex-wrap justify-content-center">
+
+<h2 class="main-h2">SPŁYW KAJAKOWY</h2>
+<p>Dodał: Marek Skrzypczak | 03.08.2020 r. | Emaus Rzeszów</p>
+
+<p>Zapraszamy do spędzenia wspólnego czasu podczas SPŁYWU KAJAKOWEGO, który odbędzie się 15 sierpnia (w sobotę).</p>
+<p>Zapewniamy kawę, herbatę i ciasteczka. Zabierzmy ze sobą okulary przeciwsłoneczne, nakrycie głowy, mały plecak, napoje buty do wody oraz kiełbaskę i chleb na ognisko.</p>
+<p>Wyjazd o godzinie 7.30 z parkingu na podpromiu.</p>
+<p>Zapisy u pastora pod numerem telefonu: +17 85 29 641.</p>
+<p>Koszt od osoby: 25 zł - pierwszy odcinek, 35 zł dwa odcinki.</p>
+<p>Adres spływu: Obrocz 116 - przystań kajakowa.</p>
+<p>Więcej informacji dotyczących trasy na stronie: <a href="https://www.splywy-roztocze.pl/">www.splywy-roztocze.pl</a></p>
+
+<div class="col-12 col-md-9 d-flex justify-content-center p-0 pt-5 m-0">
+    <a href="/img/news/9.jpg" class="example-image-link" id="lightbox-img" data-lightbox="image-1" data-title="My caption">
+        <img class="col-11" src="/img/news/9.jpg" alt="">
+    </a>    
+</div>
+
+</section>
+</main>
+{% endblock %}
+
+{% block footer %}
+  {% include "components/footer.html.twig" %}
+{% endblock %}
+

@@ -6,8 +6,28 @@ class News {
     public function getPosts() 
     {
         $news = [
+            [
+                'href' => '/uwielbienie-w-trudnych-czasach-zdjecia',
+                'img'=> '/img/news/9.jpg',
+                'alt' => 'Uwielbienie w trudnych czasach zdjęcia', 
+                'title' => 'Uwielbienie w trudnych czasach zdjęcia', 
+                'postOne' => 'Kolejne owocne spotkanie dla dzieciaków za nami 💪 To był niesamowity czas, gdyż mogliśmy się uczyć jak uwielbiać Jezusa i radować się w Jego obecności kiedy przeżywamy trudne chwile.',
+                'postTwo' => 'Czytaj dalej...',
+                'postThree' => '',
+                'value' => 5,
+            ],
+            [
+                'href' => '/uwielbienie-w-trudnych-czasach',
+                'img'=> '/img/news/9.jpg',
+                'alt' => 'Uwielbienie w trudnych czasach', 
+                'title' => 'Uwielbienie w trudnych czasach', 
+                'postOne' => 'Z okazji rozpoczęcia roku szkolnego , zapraszamy dzieci na kolejne spotkanie "Uwielbienie W Zasięgu"',
+                'postTwo' => 'Czytaj dalej...',
+                'postThree' => '',
+                'value' => 5,
+            ],
                 [
-                    'href' => '/splyw-kajakowy"',
+                    'href' => '/splyw-kajakowy',
                     'img'=> '/img/news/9.jpg',
                     'alt' => 'Spływ Kajakowy', 
                     'title' => 'Spływ Kajakowy', 
