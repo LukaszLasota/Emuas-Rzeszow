@@ -9,9 +9,12 @@
 
 import '../scss/main.scss';
 
+import 'lightbox2/dist/css/lightbox.min.css';
 
 // Need jQuery? Install it with "yarn add jquery", then uncomment to import it.
 import $ from 'jquery';
+
+import 'lightbox2';
 
 require('bootstrap');
 
@@ -42,3 +45,8 @@ import './background';
 
 $('#myModal').modal('hide')
 
+
+lightbox.option({
+  'resizeDuration': 200,
+  'wrapAround': true
+})
