@@ -70,8 +70,8 @@ class IndexController extends AbstractController
                 'time' => 'Środa: 18.00',
                 'place' => 'Online',
                 'text' => 'Spotkania odbywaja się przez aplikacje ZOOM, wiecej szczegw pod linkiem:',
-                'href' => '/kawa-online',
-                'hrefText' => 'www.emaus.rzeszow.pl/kawa-online'
+                'href' => '/kawa-z-pastorem',
+                'hrefText' => 'www.emaus.rzeszow.pl/kawa-z-pastorem'
                 ],
                 [
                 'name' => 'Nabożeństwo środowe',

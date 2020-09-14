@@ -1,0 +1,35 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}{% endblock %}
+
+{% block body %}
+
+<header id="One">
+  {% include "components/menu.html.twig" %}
+</header>
+
+<main>
+<section class="news-text col-11 col-md-11 col-xl-9 mx-auto px-1 d-flex flex-wrap justify-content-center">
+
+<h2 class="main-h2">Uwielbienie w zasięgu Boga</h2>
+<p>Dodał: Marek Skrzypczak | 17.05.2020 r. | Emaus Rzeszów</p>
+
+<p>W ubiegłym roku nasze dzieci mogły uczestniczyć w konferencji W ZASIĘGU BOGA. Wierzymy, że to był super czas dla dzieciaków, dlatego w tym roku powtórka!</p>
+<p>Już 25 lipca zapraszamy dzieci zboru "Emaus" w wieku 6-12 lat na spotkanie UWIELBIENIE W ZASIĘGU BOGA. Mamy zaplanowany czas na różne gry i zabawy, a co najważniejsze – na wspólne odkrywanie CZYM jest uwielbienie Pana. Jednak mamy ograniczoną liczbę miejsc dlatego – rodzice – jeśli chcecie aby wasze dziecko mogło skorzystać z uwielbienia, prosimy o rejestrację telefoniczną pod numerem 880 249 127 (Irina).</p>
+<p>Drodzy rodzice prosimy o pobranie załącznika, który należy wypełnić w ramach rejestracji. Oświadczenie od rodziców zezwalające na udział dziecka w spotkaniu jest OBOWIĄZKOWE. Wypełnione i podpisane oświadczenie prosimy składać do Ewy Skrzypczak. Ponadto, ze względu na obecnie panujący reżim sanitarny, prosimy o przygotowanie posiłku dla dziecka (suchy prowiant oraz napój) we własnym zakresie.</p>
+
+<div class="col-12">
+    <a href="/pdf/Zgoda-Rodzicow.pdf" class="btn btn-secondary d-block text-center mx-auto col-12 col-md-6 col-lg-4" >Załącznik zgoda rodziców (pdf)</a>
+</div>
+
+<div class="col-12 col-md-9 col-xl-6 d-flex justify-content-center p-0 pt-5 m-0">
+    <img class="col-11" src="/img/news/8m.jpg" alt="">
+</div>
+
+</section>
+</main>
+{% endblock %}
+
+{% block footer %}
+  {% include "components/footer.html.twig" %}
+{% endblock %}

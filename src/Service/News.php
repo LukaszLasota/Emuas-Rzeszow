@@ -17,7 +17,7 @@ class News {
                     'value' => 5,
                 ],
                 [
-                    'href' => '/uwielbienie-w-zasiegu-Boga',
+                    'href' => '/uwielbienie-w-zasiegu-boga',
                     'img'=> '/img/news/8.jpg',
                     'alt' => 'Uwielbienie w zasięgu Boga', 
                     'title' => 'Uwielbienie w zasięgu Boga', 
