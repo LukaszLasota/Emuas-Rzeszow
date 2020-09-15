@@ -8,7 +8,7 @@ class News {
         $news = [
             [
                 'href' => '/uwielbienie-w-trudnych-czasach-zdjecia',
-                'img'=> '/img/news/9.jpg',
+                'img'=> '/img/news/11.jpg',
                 'alt' => 'Uwielbienie w trudnych czasach zdjęcia', 
                 'title' => 'Uwielbienie w trudnych czasach zdjęcia', 
                 'postOne' => 'Kolejne owocne spotkanie dla dzieciaków za nami 💪 To był niesamowity czas, gdyż mogliśmy się uczyć jak uwielbiać Jezusa i radować się w Jego obecności kiedy przeżywamy trudne chwile.',
@@ -18,7 +18,7 @@ class News {
             ],
             [
                 'href' => '/uwielbienie-w-trudnych-czasach',
-                'img'=> '/img/news/9.jpg',
+                'img'=> '/img/news/10.jpg',
                 'alt' => 'Uwielbienie w trudnych czasach', 
                 'title' => 'Uwielbienie w trudnych czasach', 
                 'postOne' => 'Z okazji rozpoczęcia roku szkolnego , zapraszamy dzieci na kolejne spotkanie "Uwielbienie W Zasięgu"',
