@@ -1,0 +1,39 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}{% endblock %}
+
+{% block body %}
+
+
+<header id="One">
+  {% include "components/menu.html.twig" %}
+</header>
+
+<main>
+<section class="news-text col-11 col-md-11 col-xl-9 mx-auto px-1 d-flex flex-wrap justify-content-center">
+
+<h2 class="main-h2">UWIELBIENIE W TRUDNYCH CZASACH</h2>
+<p>Dodał: Marek Skrzypczak | 24.08.2020 r. | Emaus Rzeszów</p>
+
+<p>Z okazji rozpoczęcia roku szkolnego , zapraszamy dzieci na kolejne spotkanie "Uwielbienie W Zasięgu"</p>
+<p>Dla kogo: dzieci 6-12 lat</p>
+<p>Gdzie : Zbór Emaus, ul.Dąbrowskiego 1a</p>
+<p>Kiedy: sobota , 5 września , o 11.00</p>
+<p>Rejestracja: <span class="font-weight-bold">telefonicznie do Iriny, do 3 września, tel. 880 249 127</span>    </p>
+<p>Informacja znajduje się również na stronie zboru na FB</p>
+<p> <span class="font-weight-bold">ZACHĘCAMY DO ZAPISÓW I ZAPRASZAMY!!!</span></p>
+
+
+<div class="col-12 col-md-9 col-xl-6 d-flex justify-content-center p-0 pt-5 m-0">
+    <a href="/img/news/10b.jpg" class="example-image-link" id="lightbox-img" data-lightbox="image-1" data-title="UWIELBIENIE W TRUDNYCH CZASACH">
+        <img class="col-11" src="/img/news/10b.jpg" alt="">
+    </a>    
+</div>
+
+</section>
+</main>
+{% endblock %}
+
+{% block footer %}
+  {% include "components/footer.html.twig" %}
+{% endblock %}
