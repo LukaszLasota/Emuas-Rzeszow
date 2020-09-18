@@ -60,10 +60,6 @@ class UwielbienieWTrudnychCzasachZdjeciaController extends AbstractController
                 'imgSmall'=> 'img/uwielbienie-galeria/11s.jpg',
                 ],
                 [
-                'img'=> 'img/uwielbienie-galeria/11.jpg',
-                'imgSmall'=> 'img/uwielbienie-galeria/11s.jpg',
-                ],
-                [
                 'img'=> 'img/uwielbienie-galeria/12.jpg',
                 'imgSmall'=> 'img/uwielbienie-galeria/12s.jpg',
                 ],
