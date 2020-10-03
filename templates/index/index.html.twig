@@ -1,10 +1,11 @@
-{% extends 'base.html.twig' %} {% block title %}{% endblock %} {% block body %}
+{% extends 'base.html.twig' %} 
+ {% block body %}
 
 <header id="One">
 
     <nav class="navbar d-flex justify-content-between fixed-top navbar-expand-lg m-0 p-0">
         
-        <h1 class="navbar-brand col-4 col-md-3 col-lg-2 col-xl-1 m-0 py-0" aria-expanded="true" href="http://emaus.rzeszow.pl/">
+        <h1 class="navbar-brand col-4 col-md-3 col-lg-2 col-xl-1 m-0 py-0" aria-expanded="true">
             <a href="/">
                 <img class="d-block w-75" src="img/logo/logo-menu-white.png" alt="Transmisja nabożeństw">
             </a>
@@ -40,6 +41,7 @@
                     <source media="(max-width:600px)" srcset="img/main/1s.jpg">
                     <img class="d-block w-100" src="img/main/1.jpg" alt="Transmisja nabożeństw">
                 </picture>
+                <a class="transmition" href="/transmisja"></a>
             </div>
             <div class="carousel-item">
                 <picture>
@@ -162,9 +164,9 @@
         {% for meet in meetings %}
         <label class="card-label col-12 col-md-6 col-xl-3 my-0">
             <input type="checkbox"  />
-            <div class="card-x">
-                <div class="front ">
-                    <h3>{{meet.name}}</h3>
+            <div class="card-x ">
+                <div class="front">
+                    <h3 >{{meet.name}}</h3>
                     <p>{{meet.time}}</p>
                     <p>{{meet.place}}</p>
                     <p class="more-paragraph">więcej</p>
@@ -201,7 +203,7 @@
                  <input type="text" class="form-control" name="email" placeholder="Twój e-mail">
             </div>
             <div class="form-group col-12 d-none" >
-                 <input type="text" class="form-control" name="surname" placeholder="Zostaw puste" class="">
+                 <input type="text" class="form-control" name="surname" placeholder="Zostaw puste" >
             </div> 
              <div class="form-group col-12" >
                  <input type="text" class="form-control" name="subject" placeholder="Temat">
@@ -239,7 +241,7 @@
 
     
 <script async defer 
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBZoIEBIsFGoExIXj5nni0rX2Aqw6NX7lw&callback=initMap">
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBS2k4y5dz4nOWEpB4h2d2NL4ianLhDMxA&callback=initMap">
 </script>
 
 

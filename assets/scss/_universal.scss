@@ -85,3 +85,19 @@ img{
 
 }
 
+.transmition{
+    position: absolute;
+    top: 21%;
+    left: 10%;
+    width: 33%;
+    height: 58%;
+}
+
+@media (max-width: 480px){
+    .transmition{
+        top: 10%;
+        left: 15%;
+        width: 70%;
+        height: 80%;
+    }
+}

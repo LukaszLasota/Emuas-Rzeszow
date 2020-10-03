@@ -41,7 +41,7 @@ class IndexController extends AbstractController
                 'time' => 'Niedziela: 10.00',
                 'place' => 'ul. Staromiejska 43a',
                 'text' => 'Nabożeństwa odbywają się w każdą niedzielę o godzinie 10:00 w Rzeszowie,przy ul.
-                ul. Staromiejska 43a (w Rzeszowskim Domu Kultury Filia Staromieście). Nabożeństwa mają charakter otwarty, możesz zaprosić
+                ul. Staromiejskiej 43a (w Rzeszowskim Domu Kultury Filia Staromieście). Nabożeństwa mają charakter otwarty, możesz zaprosić
                 swoją rodzinę i przyjaciół. Po nabożeństwie zapraszamy Cię na kawę/herbatę.
                 Istnieje możliwość tłumaczenia nabożeństwa na język angielski.',
                 'href' => '',
@@ -52,7 +52,7 @@ class IndexController extends AbstractController
                 'time' => 'Niedziela: 9.15',
                 'place' => 'ul. Staromiejska 43a',
                'text' => 'Spotkania odbywają się w każdą niedzielę o godzinie 9:15 przed nabożeństwem niedzielnym przy
-               ul. Dąbrowskiego 1a w Rzeszowie (w Rzeszowskim Domu Kultury Filia Staromieście). Jeśli masz jakiś problem z którym się
+               ul. Staromiejskiej 43a w Rzeszowie (w Rzeszowskim Domu Kultury Filia Staromieście). Jeśli masz jakiś problem z którym się
                borykasz, nie widzisz rozwiązania i celu w swoim życiu, to przyjdź – chętnie się pomodlimy o
                Ciebie lub o Twoich bliskich.',
                'href' => '',
