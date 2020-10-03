@@ -9,19 +9,17 @@
 
 import '../scss/main.scss';
 
+require('bootstrap');
+
 import 'lightbox2/dist/css/lightbox.min.css';
 
 // Need jQuery? Install it with "yarn add jquery", then uncomment to import it.
 import $ from 'jquery';
 
-import 'lightbox2';
-
-require('bootstrap');
-
 $(document).ready(function() {
     $('[data-toggle="popover"]').popover();
 });
- 
+
 import Swiper from 'swiper';
 
 var swiper = new Swiper('.swiper-container', {
@@ -38,15 +36,22 @@ var swiper = new Swiper('.swiper-container', {
       onlyInViewport: false,
     },
   });
-
   
+
+import lightbox from 'lightbox2/dist/js/lightbox.min';
+  
+window.lightbox = lightbox;
+
+ window.lightbox.option({
+        resizeDuration: 200,
+        wrapAround: true
+    });
+
+    
 import './scrolling';
 import './background';
 
 $('#myModal').modal('hide')
 
 
-lightbox.option({
-  'resizeDuration': 200,
-  'wrapAround': true
-})
+

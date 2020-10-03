@@ -5,6 +5,7 @@ namespace App\Controller;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\Routing\Annotation\Route;
 use App\Service\News;
+use App\Service\test;
 
 class IndexController extends AbstractController
 {
@@ -38,10 +39,10 @@ class IndexController extends AbstractController
                 [
                 'name' => 'Nabożeństwo niedzielne',
                 'time' => 'Niedziela: 10.00',
-                'place' => 'ul. Dąbrowskiego 1a',
+                'place' => 'ul. Staromiejska 43a',
                 'text' => 'Nabożeństwa odbywają się w każdą niedzielę o godzinie 10:00 w Rzeszowie,przy ul.
-                Dąbrowskiego 1a (w kaplicy zboru). Nabożeństwa mają charakter otwarty, możesz zaprosić
-                swoją rodzinę i przyjaciół. Po nabożeństwie zapraszamy Cię na kawę/herbatę oraz ciastko.
+                ul. Staromiejska 43a (w Rzeszowskim Domu Kultury Filia Staromieście). Nabożeństwa mają charakter otwarty, możesz zaprosić
+                swoją rodzinę i przyjaciół. Po nabożeństwie zapraszamy Cię na kawę/herbatę.
                 Istnieje możliwość tłumaczenia nabożeństwa na język angielski.',
                 'href' => '',
                 'hrefText' => ''
@@ -49,9 +50,9 @@ class IndexController extends AbstractController
                 [
                 'name' => 'Spotkania modlitewne',
                 'time' => 'Niedziela: 9.15',
-                'place' => 'ul. Dąbrowskiego 1a',
+                'place' => 'ul. Staromiejska 43a',
                'text' => 'Spotkania odbywają się w każdą niedzielę o godzinie 9:15 przed nabożeństwem niedzielnym przy
-               ul. Dąbrowskiego 1a w Rzeszowie (w kaplicy zboru). Jeśli masz jakiś problem z którym się
+               ul. Dąbrowskiego 1a w Rzeszowie (w Rzeszowskim Domu Kultury Filia Staromieście). Jeśli masz jakiś problem z którym się
                borykasz, nie widzisz rozwiązania i celu w swoim życiu, to przyjdź – chętnie się pomodlimy o
                Ciebie lub o Twoich bliskich.',
                'href' => '',
@@ -88,7 +89,7 @@ class IndexController extends AbstractController
                 'name' => 'Royal Rangers',
                 'time' => 'Piątek: 18.00',
                 'place' => 'ul. Dąbrowskiego 1a',
-                'text' => 'Spotkania obecnie są zawieszone, po więcej szczegółów zapraszamy na strone:',
+                'text' => 'Spotkania obecnie są zawieszone, po więcej szczegółów zapraszamy na stronę:',
                 'href' => 'http://www.royalrangers.pl/',
                 'hrefText' => 'www.royalrangers.pl/'
                 ],
@@ -96,7 +97,7 @@ class IndexController extends AbstractController
                 'name' => 'Spotkania studenckie',
                 'time' => 'wtorek: 19.00',
                 'place' => 'ul. Dąbrowskiego 1a',
-                'text' => 'Spotkania odbywaja się online, po więcej szczegółów zapraszamy na strone:',
+                'text' => 'Spotkania odbywaja się online, po więcej szczegółów zapraszamy na stronę:',
                 'href' => 'https://www.facebook.com/Dynamis-MR-1273639636074462/',
                 'hrefText' => 'www.facebook.com/Dynamis-MR'
                 ],
@@ -104,7 +105,7 @@ class IndexController extends AbstractController
                 'name' => 'Akcja Humanitarna "Życie"',
                 'time' => 'Czwartek: 18.00',
                 'place' => 'ul. Dąbrowskiego 1a',
-                'text' => 'Spotkania obecnie są zawieszone',
+                'text' => 'Spotkania obecnie są zawieszone, po więcej szczegółów zapraszamy na stronę:',
                 'href' => 'http://ahzycie.com/',
                 'hrefText' => 'www.ahzycie.com'
                 ],

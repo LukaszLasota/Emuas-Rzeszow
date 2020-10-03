@@ -31,9 +31,9 @@ DirectoryIndex index.php
     RewriteRule .* - [E=BASE:%1]
 
     # Sets the HTTPS_AUTHORIZATION header removed by Apache
-    RewriteEngine On
-    RewriteCond %{SERVER_PORT} 80
-    RewriteRule ^(.*)$ http://www.emaus.rzeszow.pl [R,L]
+    #RewriteEngine On
+    #RewriteCond %{SERVER_PORT} 80
+    #RewriteRule ^(.*)$ http://emaus.rzeszow.pl [R,L]
 
 
     # Redirect to URI without front controller to prevent duplicate content
