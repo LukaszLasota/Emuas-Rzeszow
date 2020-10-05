@@ -11,6 +11,9 @@
         padding: 10px 0;
         text-align: justify;
         width: 100%;
+        @media (max-width: 500px){
+            text-align: left;
+        }
     }
     h2{
         padding: 50px 0;

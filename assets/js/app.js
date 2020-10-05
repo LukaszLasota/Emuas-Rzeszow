@@ -37,7 +37,6 @@ var swiper = new Swiper('.swiper-container', {
     },
   });
   
-
 import lightbox from 'lightbox2/dist/js/lightbox.min';
   
 window.lightbox = lightbox;
@@ -47,11 +46,10 @@ window.lightbox = lightbox;
         wrapAround: true
     });
 
-    
 import './scrolling';
 import './background';
 
-$('#myModal').modal('hide')
+$('.collapse').collapse('hide');
 
 
 
