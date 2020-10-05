@@ -68,7 +68,7 @@ class IndexController extends AbstractController
                 ],
                 [
                 'name' => 'Kawa z pastorem',
-                'time' => 'Środa: 18.00',
+                'time' => 'Środa: 11.00',
                 'place' => 'Online',
                 'text' => 'Spotkania odbywaja się przez aplikacje ZOOM, wiecej szczegw pod linkiem:',
                 'href' => '/kawa-z-pastorem',
