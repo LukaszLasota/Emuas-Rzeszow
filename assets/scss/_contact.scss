@@ -25,3 +25,30 @@
     }
     
 }
+
+@media (max-width: 1024px){
+    .contact{
+        h2{
+            padding: 80px 10px;
+        }
+    }
+    .contact-two{
+        padding-top: 40px;
+    }
+}
+
+@media (max-width: 600px){
+    .contact{
+        h2{
+            padding: 70px 10px;
+        }
+    }
+    .contact-two{
+        h3{
+            font-size: 1.4rem;
+        }
+        p{
+            font-size: 1.2rem;
+        }
+    }
+}
