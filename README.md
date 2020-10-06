@@ -1,6 +1,6 @@
 # Emaus Rzeszów
 
-Website for local church 
+Website for local church, live version: https://emaus.rzeszow.pl/  
 
 ===
 
