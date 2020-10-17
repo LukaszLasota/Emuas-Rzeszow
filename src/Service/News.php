@@ -11,7 +11,7 @@ class News {
                 'img'=> '/img/news/12.jpg',
                 'alt' => 'Ogłoszenie Nabożeństwa',
                 'title' => 'Ogłoszenie Nabożeństwa', 
-                'postOne' => 'Informujemy, że ponownie odbywają się niedzielne nabożeństwa o godzinie 10.00 oraz środowe nabożeństwa o godzinie 18.00 w kaplicy naszego zboru przy ul. Dąbrowskiego 1a.',
+                'postOne' => 'Przypominamy, że od października nabożeństwa główne (niedzielne) będą odbywać się w Rzeszowskim Domu Kultury przy ul. Staromiejskiej 43a. ',
                 'postTwo' => 'Czytaj dalej...',
                 'postThree' => '',
                 'value' => '10',
