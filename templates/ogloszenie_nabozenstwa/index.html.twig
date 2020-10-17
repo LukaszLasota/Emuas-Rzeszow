@@ -1,0 +1,36 @@
+{% extends 'base.html.twig' %}
+
+
+{% block body %}
+
+<header id="One">
+  {% include "components/menu.html.twig" %}
+</header>
+
+<main>
+<section class="news-text col-11 col-md-11 col-xl-9 mx-auto px-1 d-flex flex-wrap justify-content-center">
+
+<h2 class="main-h2">INFORMACJE DOTYCZĄCE NABOŻEŃSTW</h2>
+<p>Dodał: Marek Skrzypczak | 01.10.2020 r. | Emaus Rzeszów</p>
+
+<p>Przypominamy, że od najbliższej niedzieli nabożeństwa główne będą odbywać się w Rzeszowskim Domu Kultury przy ul. Staromiejskiej 43a. </p>
+<p>Zapraszamy na godzinę 10.00. </p>
+<p>Pamiętajmy aby mieć ze sobą osłonę na nos oraz usta.</p>
+<p>Dla osób, które z różnych względów nie będą uczestniczyć w nabożeństwie niedzielnym zapraszamy na transmisję online dostępną na naszym kanale na Youtube. Stream rozpocznie się przed godziną 10.00</p>
+<p >Link: <a href="https://www.youtube.com/channel/UCnjQJvg70iKbJLsJ4UX4rxA">ww.youtube.com/channel</a></p>
+<p>Ponadto informujemy, że przy wejściu będzie znajdował się płyn do dezynfekcji rąk</p>
+
+
+<div class="col-12 col-md-9 d-flex justify-content-center p-0 pt-5 m-0">
+    <a href="/img/news/12.jpg" class="example-image-link" id="lightbox-img" data-lightbox="image-1" data-title="OGŁOSZENIE NABOŻEŃSTWA">
+        <img class="col-11" src="/img/news/12.jpg" alt="OGŁOSZENIE NABOŻEŃSTWA">
+    </a>    
+</div>
+
+</section>
+</main>
+{% endblock %}
+
+{% block footer %}
+  {% include "components/footer.html.twig" %}
+{% endblock %}

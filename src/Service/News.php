@@ -7,6 +7,16 @@ class News {
     {
         $news = [
             [
+                'href'=>'/ogloszenie-nabozenstwa',
+                'img'=> '/img/news/12.jpg',
+                'alt' => 'Ogłoszenie Nabożeństwa',
+                'title' => 'Ogłoszenie Nabożeństwa', 
+                'postOne' => 'Informujemy, że ponownie odbywają się niedzielne nabożeństwa o godzinie 10.00 oraz środowe nabożeństwa o godzinie 18.00 w kaplicy naszego zboru przy ul. Dąbrowskiego 1a.',
+                'postTwo' => 'Czytaj dalej...',
+                'postThree' => '',
+                'value' => '10',
+                ],
+            [
                 'href' => '/uwielbienie-w-trudnych-czasach-zdjecia',
                 'img'=> '/img/news/11.jpg',
                 'alt' => 'Uwielbienie w trudnych czasach zdjęcia', 
