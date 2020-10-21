@@ -8,10 +8,10 @@ class News {
         $news = [
             [
                 'href'=>'/ogloszenie-nabozenstwa',
-                'img'=> '/img/news/12.jpg',
+                'img'=> '/img/news/13m.jpg',
                 'alt' => 'Ogłoszenie Nabożeństwa',
                 'title' => 'Ogłoszenie Nabożeństwa', 
-                'postOne' => 'Przypominamy, że od października nabożeństwa główne (niedzielne) będą odbywać się w Rzeszowskim Domu Kultury przy ul. Staromiejskiej 43a. ',
+                'postOne' => 'Przypominamy że nabożeństwa główne od najbliższej niedzieli (25.10.2020 r.), odbywają się ponownie w kaplicy zboru przy ul. Dąbrowskiego 1a.',
                 'postTwo' => 'Czytaj dalej...',
                 'postThree' => '',
                 'value' => '10',

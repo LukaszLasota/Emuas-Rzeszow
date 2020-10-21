@@ -39,22 +39,18 @@ class IndexController extends AbstractController
                 [
                 'name' => 'Nabożeństwo niedzielne',
                 'time' => 'Niedziela: 10.00',
-                'place' => 'ul. Staromiejska 43a',
+                'place' => 'ul. Dąbrowskiego 1a',
                 'text' => 'Nabożeństwa odbywają się w każdą niedzielę o godzinie 10:00 w Rzeszowie,przy ul.
-                ul. Staromiejskiej 43a (w Rzeszowskim Domu Kultury Filia Staromieście). Nabożeństwa mają charakter otwarty, możesz zaprosić
-                swoją rodzinę i przyjaciół. Po nabożeństwie zapraszamy Cię na kawę/herbatę.
-                Istnieje możliwość tłumaczenia nabożeństwa na język angielski.',
+                Dąbrowskiego 1a (w kaplicy zboru). Nabożeństwa mają charakter otwarty, możesz zaprosić
+                swoją rodzinę i przyjaciół. Istnieje możliwość tłumaczenia nabożeństwa na język angielski.',
                 'href' => '',
                 'hrefText' => ''
                 ],
                 [
                 'name' => 'Spotkania modlitewne',
                 'time' => 'Niedziela: 9.15',
-                'place' => 'ul. Staromiejska 43a',
-               'text' => 'Spotkania odbywają się w każdą niedzielę o godzinie 9:15 przed nabożeństwem niedzielnym przy
-               ul. Staromiejskiej 43a w Rzeszowie (w Rzeszowskim Domu Kultury Filia Staromieście). Jeśli masz jakiś problem z którym się
-               borykasz, nie widzisz rozwiązania i celu w swoim życiu, to przyjdź – chętnie się pomodlimy o
-               Ciebie lub o Twoich bliskich.',
+                'place' => 'ul. Dąbrowskiego 1a',
+               'text' => 'Spotkania odbywają się w każdą niedzielę o godzinie 9:15 przed nabożeństwem niedzielnym przy ul. Dąbrowskiego 1a (w kaplicy zboru). Jeśli masz jakiś problem z którym się borykasz, nie widzisz rozwiązania i celu w swoim życiu, to przyjdź – chętnie się pomodlimy o Ciebie lub o Twoich bliskich.',
                'href' => '',
                 'hrefText' => ''
                 ],
