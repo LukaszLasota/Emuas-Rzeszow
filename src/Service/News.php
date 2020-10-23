@@ -11,7 +11,7 @@ class News {
                 'img'=> '/img/news/13m.jpg',
                 'alt' => 'Ogłoszenie Nabożeństwa',
                 'title' => 'Ogłoszenie Nabożeństwa', 
-                'postOne' => 'Przypominamy że nabożeństwa główne od najbliższej niedzieli (25.10.2020 r.), odbywają się ponownie w kaplicy zboru przy ul. Dąbrowskiego 1a.',
+                'postOne' => 'Kochani, przypominamy, że najbliższe niedzielne nabożeństwo (25 października) odbędzie się w budynku zborowym przy ulicy Dąbrowskiego 1a o godzinie 10.00. ',
                 'postTwo' => 'Czytaj dalej...',
                 'postThree' => '',
                 'value' => '10',

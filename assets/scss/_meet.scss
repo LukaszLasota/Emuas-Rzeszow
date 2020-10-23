@@ -50,7 +50,7 @@ padding: 80px 0 200px;
 }
 
 .card-x:hover{
-    p, h3{
+    .front p, .front h3, .back p{
         color: white;
     }
 }
