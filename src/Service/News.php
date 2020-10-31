@@ -11,7 +11,7 @@ class News {
                 'img'=> '/img/news/13m.jpg',
                 'alt' => 'Ogłoszenie Nabożeństwa',
                 'title' => 'Ogłoszenie Nabożeństwa', 
-                'postOne' => 'Kochani, przypominamy, że najbliższe niedzielne nabożeństwo (25 października) odbędzie się w budynku zborowym przy ulicy Dąbrowskiego 1a o godzinie 10.00. ',
+                'postOne' => 'Kochani, przypominamy, że niedzielne nabożeństwa odbywać się będą w budynku zborowym przy ulicy Dąbrowskiego 1a o godzinie 10.00.',
                 'postTwo' => 'Czytaj dalej...',
                 'postThree' => '',
                 'value' => '10',
