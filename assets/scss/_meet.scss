@@ -14,19 +14,18 @@ padding: 80px 0 200px;
     -webkit-transform-style: preserve-3d;
     transform-style: preserve-3d;
     display: block;
-    height: 250px;
+    height: 310px;
     // -webkit-transform: translate(-50%, -50%);
     // transform: translate(-50%, -50%);
     cursor: pointer;
     padding: 0;
     @media (max-width: 1600px){
-        height: 315px;
+        height: 380px;
     }
     @media (max-width: 800px){
-        height: 290px;
+        height: 340px;
     }
 }
-
 
 .card-x::after
 {
@@ -74,6 +73,13 @@ padding: 80px 0 200px;
     }
 }
 
+.card-x:hover{
+    .front p, .front h3, .back p{
+        color:black;
+    }
+}
+
+
 }
 
 .card-x {
@@ -110,7 +116,7 @@ padding: 80px 0 200px;
     }
 
 
-    .card-x .front{
+    .card-x .front, .card-x h3{
         color: black;
         p{
             text-align: center;

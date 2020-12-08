@@ -1,41 +1,41 @@
 {% extends 'base.html.twig' %}
 
 {% block body %}
-<header id="One">
-  {% include "components/menu.html.twig" %}
+	<header id="One">
+		{% include "components/menu.html.twig" %}
 
-  <div class="col-12 p-0 m-0">
-    <picture >
-        <source srcset="img/subpage/news-s.jpg" media="(max-width: 480px)">
-        <img  class="col-12 p-0 m-0" src="img/subpage/news.jpg" alt="Aktualności zboru">
-    </picture>
-  </div>
-</header>
+		<div class="col-12 p-0 m-0">
+			<picture>
+				<source srcset="img/subpage/news-s.jpg" media="(max-width: 480px)">
+				<img class="col-12 p-0 m-0" src="img/subpage/news.jpg" alt="Aktualności zboru">
+			</picture>
+		</div>
+	</header>
 
-<main>
-<div class="col-12 col-xl-10 sub-news p-3 p-md-1 py-5 p-lg-5 mx-auto d-flex flex-wrap align-content-center ">
-  {% for post in news %}
-     
-    <div class="card px-0 m-3 mx-auto col-12 col-md-5 h-auto ">
-      <a href='{{post.href}}' class='text-dark'>
-      <img class="card-img-top px-0 mx-0" src="{{ post.img }}" alt="{{post.alt}}">
-      <div class="card-body">
-            <h3 class="card-title">{{post.title}}</h3>
-            <p class="card-text">{{post.postOne}}</p>
-            <p class="card-text">{{post.postTwo}}</p>
-            <p class="card-text">{{post.postThree}}</p>
-      </div>
-      </a>
-    </div>
-      
-  {% endfor %}
-   
-</div>
+	<main>
+		<div class="col-12 col-xl-10 sub-news p-3 p-md-1 py-5 p-lg-5 mx-auto d-flex flex-wrap align-content-center ">
+			{% for post in news %}
 
-</main>
-  
+				<div class="card px-0 m-3 mx-auto col-12 col-md-5 h-auto ">
+					<a href='{{post.href}}' class='text-dark'>
+						<img class="card-img-top px-0 mx-0" src="{{ post.img }}" alt="{{post.alt}}">
+						<div class="card-body">
+							<h3 class="card-title text-uppercase">{{post.title}}</h3>
+							<p class="card-text">{{post.postOne}}</p>
+							<p class="card-text">{{post.postTwo}}</p>
+							<p class="card-text">{{post.postThree}}</p>
+						</div>
+					</a>
+				</div>
+
+			{% endfor %}
+
+		</div>
+
+	</main>
+
 {% endblock %}
 
 {% block footer %}
-  {% include "components/footer.html.twig" %}
- {% endblock %}
+	{% include "components/footer.html.twig" %}
+{% endblock %}

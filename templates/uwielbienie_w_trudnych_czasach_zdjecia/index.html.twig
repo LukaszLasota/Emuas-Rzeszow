@@ -4,40 +4,39 @@
 {% block body %}
 
 
-<header id="One">
-  {% include "components/menu.html.twig" %}
-</header>
+	<header id="One">
+		{% include "components/menu.html.twig" %}
+	</header>
 
-<main>
-<section class="news-text col-11 col-md-11 col-xl-9 mx-auto px-1 d-flex flex-wrap justify-content-center">
+	<main>
+		<section class="news-text col-11 col-md-11 col-xl-9 mx-auto px-1 d-flex flex-wrap justify-content-center">
 
-<h2 class="main-h2">UWIELBIENIE W TRUDNYCH CZASACH - ZDJĘCIA</h2>
-<p>Dodał: Marek Skrzypczak | 08.09.2020 r. | Emaus Rzeszów</p>
+			<h2 class="main-h2">UWIELBIENIE W TRUDNYCH CZASACH - ZDJĘCIA</h2>
+			<p>Dodał: Marek Skrzypczak | 08.09.2020 r. | Emaus Rzeszów</p>
 
-<p>Kolejne owocne spotkanie dla dzieciaków za nami 💪 To był niesamowity czas, gdyż mogliśmy się uczyć jak uwielbiać Jezusa i radować się w Jego obecności kiedy przeżywamy trudne chwile.</p>
-<p>Dowiedzieliśmy się, że gdy uwielbiamy Boga, wydajemy miły i pachnący owoc, który się Jemu podoba.</p>
-<p>A jaki zapach wydajesz Ty, kiedy przytłaczają ciebie obowiązki i rutyna codzienności? Czy pachniesz jak miły i dojrzały owoc, czy też śmierdzisz jak owoc zgniły?</p>
-</section>
-<section class="galery-one col-12 px-0 d-flex flex-wrap">
+			<p>Kolejne owocne spotkanie dla dzieciaków za nami 💪 To był niesamowity czas, gdyż mogliśmy się uczyć jak uwielbiać Jezusa i radować się w Jego obecności kiedy przeżywamy trudne chwile.</p>
+			<p>Dowiedzieliśmy się, że gdy uwielbiamy Boga, wydajemy miły i pachnący owoc, który się Jemu podoba.</p>
+			<p>A jaki zapach wydajesz Ty, kiedy przytłaczają ciebie obowiązki i rutyna codzienności? Czy pachniesz jak miły i dojrzały owoc, czy też śmierdzisz jak owoc zgniły?</p>
+		</section>
+		<section class="galery-one col-12 px-0 d-flex flex-wrap">
 
-    {% for post in foto %}
-    <div class="galery-one-foto col-12 col-md-6 col-lg-3 px-0 mx-0"> 
-        <a class="example-image-link w-100" id="lightbox-img" href="{{post.img}}" data-lightbox="example-set"
-            data-title="Uwielbienie w trudnych czasach - zdjęcia">
-            <picture>
-                <source srcset="{{post.imgSmall}}" media="(max-width: 800px)">
-                <img class="w-100" srcset="{{post.img}}" alt="Uwielbienie w trudnych czasach - zdjęcia" title="Uwielbienie w trudnych czasach - zdjęcia">
-            </picture>
-        </a>
-    </div>
-    {% endfor %}
+			{% for post in foto %}
+				<div class="galery-one-foto col-12 col-md-6 col-lg-3 px-0 mx-0">
+					<a class="example-image-link w-100" id="lightbox-img" href="{{post.img}}" data-lightbox="example-set" data-title="Uwielbienie w trudnych czasach - zdjęcia">
+						<picture>
+							<source srcset="{{post.imgSmall}}" media="(max-width: 800px)">
+							<img class="w-100" srcset="{{post.img}}" alt="Uwielbienie w trudnych czasach - zdjęcia" title="Uwielbienie w trudnych czasach - zdjęcia">
+						</picture>
+					</a>
+				</div>
+			{% endfor %}
 
 
-</section>
+		</section>
 
-</main>
+	</main>
 {% endblock %}
 
 {% block footer %}
-  {% include "components/footer.html.twig" %}
+	{% include "components/footer.html.twig" %}
 {% endblock %}

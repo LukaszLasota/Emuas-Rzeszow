@@ -1,0 +1,42 @@
+{% extends 'base.html.twig' %}
+{% block body %}
+
+	<header id="One">
+		{% include "components/menu.html.twig" %}
+	</header>
+
+	<main>
+		<section class="news-text col-11 col-md-11 col-xl-9 mx-auto px-1 d-flex flex-wrap justify-content-center">
+
+			<h2 class="main-h2">Zakup kalendarzy</h2>
+			<p>Dodał: Łukasz Lasota | 08.12.2020 r. | Emaus Rzeszów</p>
+
+			<p>Jeśli jeszcze nie zakupiliście kalendarzy na nowy 2021 rok to mamy dla was następujące propozycje dostępne w trzech formatach:</p>
+			<p>- kalendarz ścienny miesięczny (wymiary po rozłożeniu 335 x 475 mm.) w cenie 17.00 zł
+				<br>
+				- kalendarz książkowy codzienny „Dobry zasiew” w cenie 8.90 zł
+				<br>
+				- kalendarz zrywany codzienny „Dobry zasiew” w cenie 8.90 zł
+				<br></p>
+			<p class='pb-5 mb-5'>Zamówienia należy kierować do br. Darka Olewniczaka pod numerem telefonu: 696 491 970. Osoby, które złożyły już zamówienie będą mogły odebrać kalendarze w niedzielę w zborze. Prosimy o odliczenie pełnej kwoty zamówienia.
+			</p>
+
+
+			{% for post in foto %}
+				<div class="galery-one-foto col-12 col-md-6 col-lg-4 px-0 mx-0">
+					<a class="example-image-link w-100" id="lightbox-img" href="{{post.img}}" data-lightbox="example-set" data-title="Dostępne kalendarze">
+						<picture>
+							<source srcset="{{post.imgSmall}}" media="(max-width: 800px)">
+							<img class="w-100 p-0 m-0" srcset="{{post.img}}" alt="Dostępne kalendarze" title="Dostępne kalendarze">
+						</picture>
+					</a>
+				</div>
+			{% endfor %}
+
+		</section>
+	</main>
+{% endblock %}
+
+{% block footer %}
+	{% include "components/footer.html.twig" %}
+{% endblock %}
