@@ -1,0 +1,79 @@
+.main-picture-hover{
+    position: relative;
+    cursor: pointer;
+    img{
+        width: 100%;
+        height: 100%;
+    }
+    a{
+        display: block;
+        width: 100%;
+        height: 100%;
+        position: relative;
+        padding: 0px;
+        margin: 0px;
+    }
+    .main-picture-hover-ficaption{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 100%;
+        transform: translate(-50%, -50%);
+        -webkit-transform: translate(-50%, -50%);
+        color:white;   
+        text-transform: uppercase;
+        text-align: center;
+        letter-spacing: 2px;
+        opacity: 0;
+        transition: opacity 0.9s;
+        z-index: 30;
+
+        font-size: 2.0rem;
+        @media (max-width: 600px){
+            font-size: 1.2rem;
+        }
+        @media (max-width: 1025px){
+            font-size: 1.6rem;
+        }
+    }
+
+    .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    background:  $BG;
+    cursor: pointer;
+    -webkit-transition: ease-in-out 0.4s;
+    -moz-transition: ease-in-out 0.4s;
+    -o-transition: ease-in-out 0.4s;
+    transition: ease-in-out 0.4s;
+}
+
+}
+
+.main-picture-hover:hover .overlay, .main-picture-hover-ficaption:hover
+{
+     opacity: 0.8;
+    
+}
+.main-picture-hover:hover{
+    .main-picture-hover-ficaption{
+        opacity: 1.0;
+    }
+}
+
+@media (max-width: 1025px){
+    .main-picture-hover .overlay, .main-picture-hover-ficaption{   
+        opacity: 0.8;
+    }
+    .main-picture-hover{
+        .main-picture-hover-ficaption{
+            opacity: 1.0;
+        }
+    }
+}

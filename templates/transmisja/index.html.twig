@@ -4,27 +4,36 @@
 {% block body %}
 
 
-<header id="One">
-  {% include "components/menu.html.twig" %}
-</header>
+	<header id="One">
+		{% include "components/menu.html.twig" %}
+	</header>
 
-<main>
-<section class="news-text col-11 col-md-11 col-xl-9 mx-auto px-1 d-flex flex-wrap justify-content-center">
+	<main>
+		<section class="news-text col-11 col-md-11 col-xl-9 mx-auto px-1 d-flex flex-wrap justify-content-center">
 
-<h2 class="main-h2">Transmisja online</h2>
+			<h2 class="main-h2">Transmisja online</h2>
 
-<p>Dla osób, które z różnych względów nie będą uczestniczyć w nabożeństwie niedzielnym zapraszamy na transmisję online dostępną na naszym kanale na Youtube. Stream rozpocznie się tuż przed godziną 10.00</p>
-<p >Link: <a href="https://www.youtube.com/channel/UCnjQJvg70iKbJLsJ4UX4rxA">ww.youtube.com/channel/</a></p>
+			<p>Dla osób, które z różnych względów nie będą uczestniczyć w nabożeństwie niedzielnym zapraszamy na transmisję online dostępną na naszym kanale na Youtube. Stream rozpocznie się tuż przed godziną 10.00</p>
+			<p>Link:
+				<a href="https://www.youtube.com/channel/UCnjQJvg70iKbJLsJ4UX4rxA">ww.youtube.com/channel/</a>
+			</p>
 
 
-<div class="col-12 col-md-9 col-x-6 d-flex justify-content-center p-0 pt-5 m-0">
-    <a href="https://www.youtube.com/channel/UCnjQJvg70iKbJLsJ4UX4rxA" title="Kliknij"><img class="col-11" src="img/main/1.jpg" alt="Transmisja nabożeństw"></a>
-</div>
+			{# <div class="col-12 col-md-9 col-x-6 d-flex justify-content-center p-0 pt-5 m-0">
+																<a href="https://www.youtube.com/channel/UCnjQJvg70iKbJLsJ4UX4rxA" title="Kliknij"><img class="col-11" src="img/main/1.jpg" alt="Transmisja nabożeństw"></a>
+															</div> #}
 
-</section>
-</main>
+			<div class="col-12 col-md-9 col-x-6 d-flex justify-content-center p-0 pt-5 m-0 main-picture main-picture-hover ">
+				<a href="https://www.youtube.com/channel/UCnjQJvg70iKbJLsJ4UX4rxA" title="Kliknij">
+					<img class="" src="img/main/1.jpg" alt="Transmisja nabożeństw">
+					<ficaption class="main-picture-hover-ficaption">Zobacz transmisję na YouTube</ficaption>
+					<div class="overlay"></div>
+				</a>
+			</div>
+
+		</section>
+	</main>
 {% endblock %}
-
 {% block footer %}
-  {% include "components/footer.html.twig" %}
+	{% include "components/footer.html.twig" %}
 {% endblock %}

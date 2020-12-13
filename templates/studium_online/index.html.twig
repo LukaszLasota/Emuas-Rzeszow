@@ -3,41 +3,56 @@
 
 {% block body %}
 
-<header id="One">
-  {% include "components/menu.html.twig" %}
-</header>
+	<header id="One">
+		{% include "components/menu.html.twig" %}
+	</header>
 
-<main>
-<section class="news-text col-11 col-md-11 col-xl-9 mx-auto px-1 d-flex flex-wrap justify-content-center">
+	<main>
+		<section class="news-text col-11 col-md-11 col-xl-9 mx-auto px-1 d-flex flex-wrap justify-content-center">
 
-<h2 class="main-h2">STUDIUM ONLINE</h2>
-<p>Dodał: Marek Skrzypczak | 07.06.2020 r. | Emaus Rzeszów</p>
+			<h2 class="main-h2">STUDIUM ONLINE</h2>
+			<p>Dodał: Marek Skrzypczak | 07.06.2020 r. | Emaus Rzeszów</p>
 
-<p>Zapraszamy do studium online które odbędzie się w czwartek o godzinie 18.00.</p>
-<p>Informujemy że nastąpiło stałe przeniesienie studium z środy na czawartek.</p>
-<p>W celu uczestnictwa potrzebujesz pobrać aplikacje Zoom client meeting.</p>
-<p>Link poniżej.</p>
+			<p>Zapraszamy do studium online które odbędzie się w czwartek o godzinie 18.00.</p>
+			<p>Informujemy że nastąpiło stałe przeniesienie studium z środy na czawartek.</p>
+			<p>W celu uczestnictwa potrzebujesz pobrać aplikacje Zoom client meeting.</p>
+			<p>Link poniżej.</p>
 
-<p>Na telefon oraz tablet ( Appstore): <a href="https://apps.apple.com/pl/app/zoom-cloud-meetings/id546505307?l=pl&fbclid=IwAR1sNytieD94vegJry4qj7sc9iNnsxuNGpJgFQ9Z1gWnmKhjdOELcDNVwXY">apps.apple.com/pl/app/zoom-cloud-meetings/</a></p>
+			<p>Na telefon oraz tablet ( Appstore):
+				<a href="https://apps.apple.com/pl/app/zoom-cloud-meetings/id546505307?l=pl&fbclid=IwAR1sNytieD94vegJry4qj7sc9iNnsxuNGpJgFQ9Z1gWnmKhjdOELcDNVwXY">apps.apple.com/pl/app/zoom-cloud-meetings/</a>
+			</p>
 
-<p>(Sklep Play): <a href="https://play.google.com/store/apps/details?id=us.zoom.videomeetings&hl=pl&fbclid=IwAR1SWXfca7ik-ebjp-swJ_62aZVU9-9VABmRf47VhjA2qDXsNj-WC9irslk">play.google.com/store/apps/</a> </p>
+			<p>(Sklep Play):
+				<a href="https://play.google.com/store/apps/details?id=us.zoom.videomeetings&hl=pl&fbclid=IwAR1SWXfca7ik-ebjp-swJ_62aZVU9-9VABmRf47VhjA2qDXsNj-WC9irslk">play.google.com/store/apps/</a>
+			</p>
 
-<p>Na komputer: <a href="https://zoom.us/download?fbclid=IwAR19lQVJBilFjZEesj1MVQ6-9XlTaksoeh3EgPKePFfC9JhrWrNXZc1eIPk"></a> </p>
-<p>Jest to Zoom client meeting</p>
-<p>Link do spotkania, wystarczy kliknąc: Join Zoom Meeting <a href="https://us04web.zoom.us/j/5367440361">us04web.zoom.us/</a></p>
-<p>Meeting ID: 536 744 0361</p>
-<p>hasło: 111111</p>
+			<p>Na komputer:
+				<a href="https://zoom.us/download?fbclid=IwAR19lQVJBilFjZEesj1MVQ6-9XlTaksoeh3EgPKePFfC9JhrWrNXZc1eIPk"></a>
+			</p>
+			<p>Jest to Zoom client meeting</p>
+			<p>Link do spotkania, wystarczy kliknąc: Join Zoom Meeting
+				<a href="https://us04web.zoom.us/j/5367440361">us04web.zoom.us/</a>
+			</p>
+			<p>Meeting ID: 536 744 0361</p>
+			<p>hasło: 111111</p>
 
 
-<div class="col-12 col-md-9 col-x-6 d-flex justify-content-center p-0 pt-5 m-0">
-    <a href="https://us04web.zoom.us/j/5367440361" title="Kliknij"><img class="col-11" src="/img/news/4.jpg" alt=""></a>
-</div>
+			{# <div class="col-12 col-md-9 col-x-6 d-flex justify-content-center p-0 pt-5 m-0">
+									    <a href="https://us04web.zoom.us/j/5367440361" title="Kliknij"><img class="col-11" src="/img/news/4.jpg" alt=""></a>
+									</div> #}
 
-</section>
-</main>
+			<div class="col-12 col-md-9 col-x-6 d-flex justify-content-center p-0 pt-5 m-0 main-picture main-picture-hover ">
+				<a href="https://us04web.zoom.us/j/5367440361">
+					<img class="col-12 p-0 m-0" src="/img/news/4.jpg" alt="Studium online">
+					<ficaption class="main-picture-hover-ficaption">Dołącz do spotkania</ficaption>
+					<div class="overlay"></div>
+				</a>
+			</div>
+
+		</section>
+	</main>
 {% endblock %}
 
 {% block footer %}
-  {% include "components/footer.html.twig" %}
+	{% include "components/footer.html.twig" %}
 {% endblock %}
-

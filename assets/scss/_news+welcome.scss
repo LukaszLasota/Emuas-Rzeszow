@@ -12,9 +12,14 @@ padding-top: 2px;
 .welcome{
     background: $BG;
     height: 95vh;
-    
-    a{
+    @media (min-width: 1025px){
+        height: 120vh;
+    }
+    @media (min-width: 1600px){
         height: 95vh;
+    }
+    a{
+        height: 100%;
     }
     a:hover{
         text-decoration: none;
