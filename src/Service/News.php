@@ -8,6 +8,16 @@ class News
     {
         $news = [
             [
+                'href' => '/ogloszenia-grudzien',
+                'img' => '/img/news/17.jpg',
+                'alt' => 'Ogłoszenia grudzień',
+                'title' => 'Ogłoszenia grudzień',
+                'postOne' => 'Ogromnie się cieszymy z każdej możliwości spotkania was na żywo (choć na razie nadal w ograniczonej ilości) oraz w formie on-line (zapraszamy wszystkich bez limitów). ',
+                'postTwo' => 'Sprawdźcie jakie spotkania będziemy mieli jeszcze w tym roku 👇',
+                'postThree' => 'Czytaj dalej...',
+                'value' => '10',
+            ],
+            [
                 'href' => '/zakup-kalendarzy',
                 'img' => '/img/news/14.jpg',
                 'alt' => 'Zakup kalendarzy',
