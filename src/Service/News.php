@@ -8,6 +8,16 @@ class News
     {
         $news = [
             [
+                'href' => '/ogloszenie-nabozenstwa',
+                'img' => '/img/news/13m.jpg',
+                'alt' => 'Ogłoszenie Nabożeństwa',
+                'title' => 'Ogłoszenie Nabożeństwa',
+                'postOne' => "Informujemy, że ponownie odbywają się niedzielne nabożeństwa o godzinie 10.00 oraz środowe nabożeństwa o godzinie 18.00 w kaplicy naszego zboru przy ul. Dąbrowskiego 1a. Na nabożeństwo obowiązuje rejstracja pod numerem telefonu 17 85 29 641. Ilość miejsc jest ograniczona.",
+                'postTwo' => '',
+                'postThree' => 'Czytaj dalej...',
+                'value' => '10',
+            ],
+            [
                 'href' => '/ogloszenia-grudzien',
                 'img' => '/img/news/17.jpg',
                 'alt' => 'Ogłoszenia grudzień',
@@ -24,16 +34,6 @@ class News
                 'title' => 'Zakup kalendarzy',
                 'postOne' => 'Jeśli jeszcze nie zakupiliście kalendarzy 📅 na nowy 2021 rok to mamy dla was następujące propozycje dostępne w trzech formatach:',
                 'postTwo' => '☑️ kalendarz ścienny miesięczny (wymiary po rozłożeniu 335 x 475 mm.) w cenie 17.00 zł',
-                'postThree' => 'Czytaj dalej...',
-                'value' => '10',
-            ],
-            [
-                'href' => '/ogloszenie-nabozenstwa',
-                'img' => '/img/news/13m.jpg',
-                'alt' => 'Ogłoszenie Nabożeństwa',
-                'title' => 'Ogłoszenie Nabożeństwa',
-                'postOne' => 'Informujemy, że ponownie odbywają się niedzielne nabożeństwa o godzinie 10.00 w kaplicy naszego zboru przy ul. Dąbrowskiego 1a. Na nabożeństwo obowiązuje rejstracja pod numerem telefonu 17 85 29 641. Ilość miejsc jest ograniczona.',
-                'postTwo' => 'Środowe nabożeństwa zostają zawieszone do końca tego roku. Proponujemy jednak spotkanie online w każdą środę o 18.00. Zapraszamy gorąco.',
                 'postThree' => 'Czytaj dalej...',
                 'value' => '10',
             ],

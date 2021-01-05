@@ -71,10 +71,10 @@ class IndexController extends AbstractController
                 [
                     'name' => 'Nabożeństwo środowe',
                     'time' => 'Środa: 18.00',
-                    'place' => 'Online',
-                    'text' => 'Środowe nabożeństwa zostają zawieszone do końca tego roku. Proponujemy jednak spotkanie online w każdą środę o godzinie 18.00. Spotkanie odbędzie sie poprzez aplikację zoom, pod tym samym linkiem co kawa z pastorem oraz studium online, link:',
-                    'href' => 'https://us04web.zoom.us/j/5367440361/',
-                    'hrefText' => 'https://us04web.zoom.us/',
+                    'place' => 'ul. Dąbrowskiego 1a',
+                    'text' => 'Nabożeństwa odbywają się w każdą środę o godzinie 18:00 w Rzeszowie, przy ul. Dąbrowskiego 1a (w kaplicy zboru).   Jest to dobry czas, aby spotkać się z Bogiem w tygodniu i podziękować Mu za mijający dzień. Obecnie z uwagi na wprowadzone ograniczenia obowiązuje rejstracja telefoniczna pod numerem telefonu 17 85 29 641. Ilość miejsc jest ograniczona.',
+                    'href' => '',
+                    'hrefText' => '',
                 ],
                 [
                     'name' => 'Royal Rangers',
