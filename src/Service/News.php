@@ -8,6 +8,16 @@ class News
     {
         $news = [
             [
+                'href' => '/seminarium-biblijne',
+                'img' => '/img/news/18.jpg',
+                'alt' => '„CZAS UCIEKA” - SEMINARIUM BIBLIJNE ON–LINE',
+                'title' => '„CZAS UCIEKA” - SEMINARIUM BIBLIJNE ON–LINE',
+                'postOne' => "Zapraszam CIĘ do wzięcia udziału w seminarium on-line przez aplikację ZOOM, poświęconemu tematyce Powtórnego przyjścia Pana naszego Jezusa Chrystusa.  Jestem pewien, że będzie to wyjątkowy czas zachęty i zbudowania dla każdego, kto czeka na powrót Zbawiciela.",
+                'postTwo' => '',
+                'postThree' => 'Czytaj dalej...',
+                'value' => '10',
+            ],
+            [
                 'href' => '/ogloszenie-nabozenstwa',
                 'img' => '/img/news/13m.jpg',
                 'alt' => 'Ogłoszenie Nabożeństwa',
