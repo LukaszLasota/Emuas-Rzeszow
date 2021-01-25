@@ -88,7 +88,7 @@ class IndexController extends AbstractController
                     'name' => 'Spotkania studenckie',
                     'time' => 'Wtorek: 19.00',
                     'place' => 'ul. Dąbrowskiego 1a',
-                    'text' => 'Spotkania odbywaja się online, po więcej szczegółów zapraszamy na stronę:',
+                    'text' => 'Spotkania odbywają się w każdy wtorek o godzinie 19.00 w kaplicy zboru, po więcej szczegółów zapraszamy na stronę:',
                     'href' => 'https://www.facebook.com/Dynamis-MR-1273639636074462/',
                     'hrefText' => 'www.facebook.com/Dynamis-MR',
                 ],
