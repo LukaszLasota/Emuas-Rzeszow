@@ -1,0 +1,32 @@
+{% extends 'base.html.twig' %}
+{% block body %}
+
+	<header id="One">
+		{% include "components/menu.html.twig" %}
+	</header>
+
+	<main>
+		<section class="news-text col-11 col-md-11 col-xl-9 mx-auto px-1 d-flex flex-wrap justify-content-center">
+
+			<h2 class="main-h2">Dzień kobiet</h2>
+			<p>Dodał: Łukasz Lasota | 03.03.2021 r. | Emaus Rzeszów</p>
+
+			<p>Kochane siostry, KOBIETY 👩🌷. Już za niedługo święto, tak samo wyjątkowe jak każda z was – DZIEŃ KOBIET😍.
+			</p>
+			<p>Z tej okazji zapraszam Was na spotkanie, które odbędzie się w niedzielę o godzinie 17.00 w budynku przy ulicy Dąbrowskiego 1a. Wszystko czego potrzebujesz, to potwierdzić swoją obecność najpóźniej do soboty, dzwoniąc na numer stacjonarny. 17 8529641 Z uwagi na obostrzenia mamy ograniczoną liczbę uczestniczek.
+			</p>
+			<p>Pozdrawiam Ewa Skrzypczak.</p>
+
+			<div class="col-12 col-md-9 d-flex justify-content-center p-0 pt-5 m-0">
+				<a href="/img/news/19.jpg" class="example-image-link" id="lightbox-img" data-lightbox="image-1" data-title="Dzień kobiet">
+					<img class="col-11" src="/img/news/19.jpg" alt="Dzień kobiet">
+				</a>
+			</div>
+
+		</section>
+	</main>
+{% endblock %}
+
+{% block footer %}
+	{% include "components/footer.html.twig" %}
+{% endblock %}

@@ -8,6 +8,16 @@ class News
     {
         $news = [
             [
+                'href' => '/dzien-kobiet',
+                'img' => '/img/news/19.jpg',
+                'alt' => 'Dzień kobiet',
+                'title' => 'DZIEŃ KOBIET',
+                'postOne' => "Kochane siostry, KOBIETY 👩🌷. Już za niedługo święto, tak samo wyjątkowe jak każda z was – DZIEŃ KOBIET😍. ",
+                'postTwo' => 'Z tej okazji zapraszam Was na spotkanie, które odbędzie się w niedzielę o godzinie 17.00 w budynku przy ulicy Dąbrowskiego 1a. ',
+                'postThree' => 'Czytaj dalej...',
+                'value' => '10',
+            ],
+            [
                 'href' => '/seminarium-biblijne',
                 'img' => '/img/news/18.jpg',
                 'alt' => '„CZAS UCIEKA” - SEMINARIUM BIBLIJNE ON–LINE',
