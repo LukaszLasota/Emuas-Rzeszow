@@ -1,0 +1,28 @@
+{% extends 'base.html.twig' %}
+{% block body %}
+
+	<header id="One">
+		{% include "components/menu.html.twig" %}
+	</header>
+
+	<main>
+		<section class="news-text col-11 col-md-11 col-xl-9 mx-auto px-1 d-flex flex-wrap justify-content-center">
+
+			<h2 class="main-h2">Koncert Wielkanocny „JEZUS ZMARTWYCHWSTAŁ” on-line.</h2>
+			<p>Dodał: Łukasz Lasota | 21.03.2021 r. | Emaus Rzeszów</p>
+
+			<p>Serdecznie zapraszamy na Koncert Wielkanocny „JEZUS ZMARTWYCHWSTAŁ” on-line. Transmisja odbędzie się 05.04.2021 r. (Poniedziałek Wielkanocny) o godzinie 18:00 na naszym kanale na YouTube.</p>
+
+			<div class="col-12 col-md-9 d-flex justify-content-center p-0 pt-5 m-0">
+				<a href="/img/news/20.jpg" class="example-image-link" id="lightbox-img" data-lightbox="image-1" data-title="Koncert Wielkanocny „JEZUS ZMARTWYCHWSTAŁ” on-line.">
+					<img class="col-11" src="/img/news/20.jpg" alt="Koncert Wielkanocny „JEZUS ZMARTWYCHWSTAŁ” on-line.">
+				</a>
+			</div>
+
+		</section>
+	</main>
+{% endblock %}
+
+{% block footer %}
+	{% include "components/footer.html.twig" %}
+{% endblock %}

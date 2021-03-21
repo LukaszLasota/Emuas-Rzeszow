@@ -8,6 +8,16 @@ class News
     {
         $news = [
             [
+                'href' => '/koncert-wielkanocny',
+                'img' => '/img/news/20.jpg',
+                'alt' => 'Koncert Wielkanocny „JEZUS ZMARTWYCHWSTAŁ” on-line.',
+                'title' => 'Koncert Wielkanocny „JEZUS ZMARTWYCHWSTAŁ” on-line.',
+                'postOne' => "Serdecznie zapraszamy na Koncert Wielkanocny „JEZUS ZMARTWYCHWSTAŁ” on-line. Transmisja odbędzie się 05.04.2021 r. (Poniedziałek Wielkanocny) o godzinie 18:00 na naszym kanale na YouTube.",
+                'postTwo' => '',
+                'postThree' => 'Czytaj dalej...',
+                'value' => '10',
+            ],
+            [
                 'href' => '/dzien-kobiet',
                 'img' => '/img/news/19.jpg',
                 'alt' => 'Dzień kobiet',
