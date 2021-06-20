@@ -8,6 +8,26 @@ class News
     {
         $news = [
             [
+                'href' => '/piknik-rodzinny',
+                'img' => '/img/news/22.jpg',
+                'alt' => 'piknik rodzinny',
+                'title' => ' Zapraszamy na PIKNIK RODZINNY',
+                'postOne' => "W sobotę 26 czerwca 2021 r. będzie okazja abyśmy mogli zwyczajnie ze sobą się spotkać i porozmawiać. Będzie to również czas zabawy wspólnego śpiewania i oczywiście grillowania.",
+                'postTwo' => '',
+                'postThree' => 'Czytaj dalej...',
+                'value' => '10',
+            ],
+            [
+                'href' => '/w-zasiegu',
+                'img' => '/img/news/21.jpg',
+                'alt' => 'konferencji dla dzieci „W zasięgu Boga”.',
+                'title' => '🎉W I T A J C I E 🎊',
+                'postOne' => "Mamy dla was wspaniałą wiadomość!",
+                'postTwo' => '',
+                'postThree' => 'Czytaj dalej...',
+                'value' => '10',
+            ],
+            [
                 'href' => '/koncert-wielkanocny',
                 'img' => '/img/news/20.jpg',
                 'alt' => 'Koncert Wielkanocny „JEZUS ZMARTWYCHWSTAŁ” on-line.',

@@ -1,0 +1,46 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+
+<header id="One">
+  {% include "components/menu.html.twig" %}
+</header>
+
+<main>
+<section class="news-text col-11 col-md-11 col-xl-9 mx-auto px-1 d-flex flex-wrap justify-content-center list-news">
+
+<h2 class="main-h2">Zapraszamy na PIKNIK RODZINNY</h2>
+<p>Dodał: Łukasz Lasota | 14.06.2021 r. | Emaus Rzeszów</p>
+
+<p>Po ponad rocznej przerwie z powodu pandemii, nareszcie możemy się spotkać w większej grupie. Zapraszamy na PIKNIK RODZINNY w sobotę 26 czerwca 2021 r.</p>
+
+<p>Jest to okazja abyśmy mogli zwyczajnie ze sobą się spotkać i porozmawiać. Będzie to również czas zabawy wspólnego śpiewania i oczywiście grillowania.</p>
+
+<p>MIEJSCE -  Koło Łowieckie „Bażant” Lubenia 736</p>
+<p>Rozpoczęcie godz. 11:00</p>
+
+<ul>W PROGRAMIE:
+	<li>- Mega-Grillowanie, (chleb, napoje, kiełbaska oraz mięso we własnym zakresie)/li>
+	<li>- Kosztowanie domowych specjałów – jak co roku, jest to wyjątkowa okazja do zaprezentowania swoich domowych przetworów i wypieków.</li>
+    <li>- Muzyka na Żywo, i Atrakcje dla wszystkich.</li>
+    <li>- Z naszej strony zapewniamy min.</li>
+    <li>- Kawę i Herbatę, ciasteczka, tacki i musztardę i ketchup itp.</li>
+</ul>
+<p>Nie może Cię zabraknąć i zabierz ze sobą rodzinkę i znajomych.</p>
+<p>ZAPRASZAMY</p>
+
+<div class="col-12 col-md-9 col-xl-6 d-flex justify-content-center p-0 pt-5 m-0">
+    <a href="/img/news/22.jpg" class="example-image-link" id="lightbox-img" data-lightbox="image-1" data-title="piknik">
+        <img class="col-11" src="/img/news/22.jpg" alt="piknik">
+    </a>    
+</div>
+
+</section>
+</main>
+{% endblock %}
+
+{% block footer %}
+  {% include "components/footer.html.twig" %}
+{% endblock %}
+
+
