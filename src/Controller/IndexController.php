@@ -40,7 +40,7 @@ class IndexController extends AbstractController
                     'time' => 'Niedziela: 10.00',
                     'place' => 'ul. Dąbrowskiego 1a',
                     'text' => 'Nabożeństwa odbywają się w każdą niedzielę o godzinie 10:00 w Rzeszowie,przy ul.
-                Dąbrowskiego 1a (w kaplicy zboru). Istnieje możliwość tłumaczenia nabożeństwa na język angielski. Obecnie z uwagi na wprowadzone ograniczenia obowiązuje rejstracja telefoniczna pod numerem telefonu 17 85 29 641. Ilość miejsc jest ograniczona. Dostępna jest transmisja online z nabożeństw pod linkiem: ',
+                Dąbrowskiego 1a (w kaplicy zboru). Nabożeństwa tłumaczone są na język ukraiński oraz istnieje możliwość tłumaczenia na język angielski. Dostępna jest transmisja online z nabożeństw pod linkiem: ',
                     'href' => 'https://www.youtube.com/channel/UCnjQJvg70iKbJLsJ4UX4rxA',
                     'hrefText' => 'www.youtube.com/channel',
                 ],
@@ -54,7 +54,7 @@ class IndexController extends AbstractController
                 ],
                 [
                     'name' => 'Studium Online',
-                    'time' => 'Czwartek: 18.00',
+                    'time' => 'Czwartek: 19.00',
                     'place' => 'Online',
                     'text' => 'Spotkania odbywaja się przez aplikacje ZOOM, wiecej szczegółów pod linkiem:',
                     'href' => '/studium-online',
@@ -72,7 +72,7 @@ class IndexController extends AbstractController
                     'name' => 'Nabożeństwo środowe',
                     'time' => 'Środa: 18.00',
                     'place' => 'ul. Dąbrowskiego 1a',
-                    'text' => 'Nabożeństwa odbywają się w każdą środę o godzinie 18:00 w Rzeszowie, przy ul. Dąbrowskiego 1a (w kaplicy zboru). Jest to dobry czas, aby spotkać się z Bogiem w tygodniu i podziękować Mu za mijający dzień. Obecnie z uwagi na wprowadzone ograniczenia obowiązuje rejstracja telefoniczna pod numerem telefonu 17 85 29 641. Ilość miejsc jest ograniczona.',
+                    'text' => 'Nabożeństwa odbywają się w każdą środę o godzinie 18:00 w Rzeszowie, przy ul. Dąbrowskiego 1a (w kaplicy zboru). Jest to dobry czas, aby spotkać się z Bogiem w tygodniu i podziękować Mu za mijający dzień.',
                     'href' => '',
                     'hrefText' => '',
                 ],

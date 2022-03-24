@@ -8,6 +8,16 @@ class News
     {
         $news = [
             [
+                'href' => '/pomoc-dla-ukrainy',
+                'img' => '/img/news/23.jpg',
+                'alt' => 'pomoc dla ukrainy',
+                'title' => 'Pomoc dla ukrainy',
+                'postOne' => "Dziękujemy za wasze otwarte serca, pełne pomocy i współczucia dla obywateli Ukrainy, którzy przekraczają Polską granicę. Nadal potrzebujemy dużo rąk do pracy!",
+                'postTwo' => '',
+                'postThree' => 'Czytaj dalej...',
+                'value' => '10',
+            ],
+            [
                 'href' => '/piknik-rodzinny',
                 'img' => '/img/news/22.jpg',
                 'alt' => 'piknik rodzinny',

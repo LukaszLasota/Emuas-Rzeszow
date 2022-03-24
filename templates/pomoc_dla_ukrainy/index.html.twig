@@ -1,0 +1,43 @@
+{% extends 'base.html.twig' %}
+
+
+{% block body %}
+
+	<header id="One">
+		{% include "components/menu.html.twig" %}
+	</header>
+
+	<main>
+		<section class="news-text col-11 col-md-11 col-xl-9 mx-auto px-1 d-flex flex-wrap justify-content-center list-news">
+
+			<h2 class="main-h2">POMOC DLA UKRAINY</h2>
+			<p>Dodał: Marek Skrzypczak | 28.02.2022 r. | Emaus Rzeszów</p>
+            <p>Dziękujemy za wasze otwarte serca, pełne pomocy i współczucia dla obywateli Ukrainy, którzy przekraczają Polską granicę. Nadal potrzebujemy dużo rąk do pracy!</p>
+		
+			<ul>Jak możesz pomóc?:
+                <li>👉 materialnie – prześlij dowolną kwotę na numer konta 51 1240 1792 1111 0000 1973 9791 z dopiskiem „POMOC DLA UKRAINY”, a my kupimy niezbędne rzeczy według potrzeb. </li>
+                <li>👉 zakwaterowanie – potrzebne są miejsca noclegowe dla rodzin z dziećmi, dlatego daj znać telefonicznie lub przez formularz ile osób możesz przyjąć.</li>
+                <li>👉 transport – potrzebni są kierowcy dysponujący czasem i samochodem.</li>
+                <li>👉 tłumacząc – jeśli znasz języki ukraiński, rosyjski, angielski będziemy potrzebować Twojej pomocy przy tłumaczeniu dla osób przyjezdnych, którzy nie znają języka polskiego.</li>
+            </ul>
+
+            <p>Osoby chętne do pomocy prosimy o wypełnienie poniższego formularza (kliknij na zdjęcie lub link), który ułatwi nam koordynację działań:
+                <a href="https://docs.google.com/forms/d/1BJ8E12VEQ_fUIc2tIz74oxt4WberXyUZuLgOH6o5110/viewform?edit_requested=true&fbclid=IwAR2EORE2pKhmZpo7pLy2bpFL6YOe4avLEAd298AOtbp53PDdsh5g_Xy0tUA">link do formularza</a> 
+            </p>
+            
+			<div class="col-12 col-md-9 col-x-6 d-flex justify-content-center p-0 pt-5 m-0 main-picture main-picture-hover ">
+				<a href="https://docs.google.com/forms/d/1BJ8E12VEQ_fUIc2tIz74oxt4WberXyUZuLgOH6o5110/viewform?edit_requested=true&fbclid=IwAR2EORE2pKhmZpo7pLy2bpFL6YOe4avLEAd298AOtbp53PDdsh5g_Xy0tUA">
+					<img class="col-12 p-0 m-0" src="/img/news/23.jpg" alt="Pomoc dla Ukrainy">
+					<ficaption class="main-picture-hover-ficaption">Wypełnij formularz</ficaption>
+					<div class="overlay"></div>
+				</a>
+			</div>
+
+		</section>
+	</main>
+{% endblock %}
+
+{% block footer %}
+	{% include "components/footer.html.twig" %}
+{% endblock %}
+
